@@ -1,0 +1,26 @@
+config file path : config.ini
+[2020-11-25 04:49:40] Initializing...
+[INITIALIZER][RPCInitializer],check channel_listen_port=20200,check listenIP=0.0.0.0
+[INITIALIZER][Initializer]Init failed,EINFO=/FISCO-BCOS/libinitializer/RPCInitializer.cpp(122): Throw in function void dev::initializer::RPCInitializer::initChannelRPCServer(const boost::property_tree::ptree &)
+Dynamic exception type: boost::exception_detail::clone_impl<dev::ListenPortIsUsed>
+std::exception::what: std::exception
+[dev::tag_comment*] = Please check channel_listenIP and channel_listen_port are valid
+
+Init failed!!!
+config file path : config.ini
+[2020-11-25 04:52:23] Initializing...
+FISCO-BCOS Version : 2.6.0
+Build Time         : 20200814 08:45:06
+Build Type         : Linux/clang/Release
+Git Branch         : HEAD
+Git Commit Hash    : e4a5ef2ef64d1943fccc4ebc61467a91779fb1c0
+[2020-11-25 04:52:24] The FISCO-BCOS is running...
+[2020-11-25 04:52:37] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2020-11-25 04:52:58] Initializing...
+FISCO-BCOS Version : 2.6.0
+Build Time         : 20200814 08:45:06
+Build Type         : Linux/clang/Release
+Git Branch         : HEAD
+Git Commit Hash    : e4a5ef2ef64d1943fccc4ebc61467a91779fb1c0
+[2020-11-25 04:52:58] The FISCO-BCOS is running...

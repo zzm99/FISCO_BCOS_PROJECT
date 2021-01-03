@@ -1,0 +1,25 @@
+[ERROR] [2020-11-19 06:21:35] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(401) |  connect to 127.0.0.1:20200, error: Connection refused: /127.0.0.1:20200
+[ERROR] [2020-11-19 06:21:35] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(457) |  all connections have failed, [Connection refused: /127.0.0.1:20200]
+[ERROR] [2020-11-19 06:21:35] org.fisco.bcos.channel.client.Service.run(386) |  service init failed, error message:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200], error: 
+java.lang.RuntimeException:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200]
+	at org.fisco.bcos.channel.handler.ChannelConnections.startConnect(ChannelConnections.java:459)
+	at org.fisco.bcos.channel.client.Service.run(Service.java:332)
+	at org.fisco.bcos.asset.client.AssetClient.initialize(AssetClient.java:81)
+	at org.fisco.bcos.asset.client.AssetClient.main(AssetClient.java:204)
+[ERROR] [2020-11-19 06:22:11] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(401) |  connect to 127.0.0.1:20200, error: Connection refused: /127.0.0.1:20200
+[ERROR] [2020-11-19 06:22:11] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(457) |  all connections have failed, [Connection refused: /127.0.0.1:20200]
+[ERROR] [2020-11-19 06:22:11] org.fisco.bcos.channel.client.Service.run(386) |  service init failed, error message:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200], error: 
+java.lang.RuntimeException:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200]
+	at org.fisco.bcos.channel.handler.ChannelConnections.startConnect(ChannelConnections.java:459)
+	at org.fisco.bcos.channel.client.Service.run(Service.java:332)
+	at org.fisco.bcos.asset.client.AssetClient.initialize(AssetClient.java:81)
+	at org.fisco.bcos.asset.client.AssetClient.main(AssetClient.java:204)
+[ERROR] [2020-11-19 06:22:22] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(401) |  connect to 127.0.0.1:20200, error: Connection refused: /127.0.0.1:20200
+[ERROR] [2020-11-19 06:22:22] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(457) |  all connections have failed, [Connection refused: /127.0.0.1:20200]
+[ERROR] [2020-11-19 06:22:22] org.fisco.bcos.channel.client.Service.run(386) |  service init failed, error message:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200], error: 
+java.lang.RuntimeException:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200]
+	at org.fisco.bcos.channel.handler.ChannelConnections.startConnect(ChannelConnections.java:459)
+	at org.fisco.bcos.channel.client.Service.run(Service.java:332)
+	at org.fisco.bcos.asset.client.AssetClient.initialize(AssetClient.java:81)
+	at org.fisco.bcos.asset.client.AssetClient.main(AssetClient.java:204)
+[ERROR] [2020-11-19 06:24:54] org.fisco.bcos.asset.client.AssetClient.queryAssetAmount(127) |  queryAssetAmount exception, error message is  load Asset contract address failed, please deploy it first. 

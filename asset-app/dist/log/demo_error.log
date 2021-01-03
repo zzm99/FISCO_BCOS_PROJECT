@@ -1,0 +1,10 @@
+[ERROR] [2020-11-20 05:34:01] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(401) |  connect to 127.0.0.1:20200, error: Connection refused: /127.0.0.1:20200
+[ERROR] [2020-11-20 05:34:01] org.fisco.bcos.channel.handler.ChannelConnections.startConnect(457) |  all connections have failed, [Connection refused: /127.0.0.1:20200]
+[ERROR] [2020-11-20 05:34:01] org.fisco.bcos.channel.client.Service.run(386) |  service init failed, error message:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200], error: 
+java.lang.RuntimeException:  Failed to connect to nodes: [Connection refused: /127.0.0.1:20200]
+	at org.fisco.bcos.channel.handler.ChannelConnections.startConnect(ChannelConnections.java:459)
+	at org.fisco.bcos.channel.client.Service.run(Service.java:332)
+	at org.fisco.bcos.asset.client.MyChainControl.initialize(MyChainControl.java:85)
+	at org.fisco.bcos.asset.client.MyChainControl.myChainInit(MyChainControl.java:170)
+	at org.fisco.bcos.asset.client.MyChainApp.<init>(MyChainApp.java:40)
+	at org.fisco.bcos.asset.client.MyChainApp.main(MyChainApp.java:240)

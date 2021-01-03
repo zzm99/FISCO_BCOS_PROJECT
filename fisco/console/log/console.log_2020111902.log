@@ -1,0 +1,12 @@
+[ERROR] [2020-11-19 02:19:47] ChannelHandler.userEventTriggered(58) |  idle state event:WRITER_IDLE connect127.0.0.1:20201 long time Inactive, disconnect
+[DEBUG] [2020-11-19 02:19:47] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20201 ,true
+[DEBUG] [2020-11-19 02:19:47] ConnectionManager.removeConnectionContext(419) |  result: true, host: 127.0.0.1, port: 20201, ctx: 1406998650
+[ERROR] [2020-11-19 02:19:47] ChannelHandler.userEventTriggered(58) |  idle state event:WRITER_IDLE connect127.0.0.1:20200 long time Inactive, disconnect
+[DEBUG] [2020-11-19 02:19:47] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20200 ,true
+[DEBUG] [2020-11-19 02:19:47] ConnectionManager.removeConnectionContext(419) |  result: true, host: 127.0.0.1, port: 20200, ctx: 392681236
+[DEBUG] [2020-11-19 02:19:47] ChannelMsgHandler.onDisconnect(162) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20200
+[DEBUG] [2020-11-19 02:19:47] ChannelMsgHandler.onDisconnect(162) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20201
+[DEBUG] [2020-11-19 02:19:47] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20200
+[INFO] [2020-11-19 02:19:47] EventPushMsgHandler.onDisconnect(90) |  filter connection disconnect
+[DEBUG] [2020-11-19 02:19:47] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20201
+[INFO] [2020-11-19 02:19:47] EventPushMsgHandler.onDisconnect(90) |  filter connection disconnect

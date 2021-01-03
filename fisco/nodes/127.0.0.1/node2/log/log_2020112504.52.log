@@ -1,0 +1,1481 @@
+info|2020-11-25 04:52:58.313578|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.6.0,versionNumber=33947648,enableStat=false,chainId=1,useSMCrypto=false
+info|2020-11-25 04:52:58.329365|[INITIALIZER][SecureInitializer]loading privateKey
+info|2020-11-25 04:52:58.362233|[INITIALIZER][SecureInitializer]get pub of node,nodeID=097c5791ab496e86ce3fca3b4f86fb8044b28d6b79ead1ba3c9c73f2cd1aa0aa5229d968795f246e8d08f9cf8102ed923e5e218f720efbc6c64c796a68837312
+info|2020-11-25 04:52:58.388097|[INITIALIZER][SecureInitializer]use user certificate,file=conf//node.crt
+info|2020-11-25 04:52:58.388363|[INITIALIZER][SecureInitializer]use ca certificate,file=conf//ca.crt
+info|2020-11-25 04:52:58.388436|[INITIALIZER][SecureInitializer]use ca,file=conf//
+info|2020-11-25 04:52:58.388675|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2020-11-25 04:52:58.388799|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2020-11-25 04:52:58.388855|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2020-11-25 04:52:58.388896|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2020-11-25 04:52:58.388934|[P2P][Service] heartBeat,connected count=0
+info|2020-11-25 04:52:58.388967|[INITIALIZER][RPCInitializer],network_security.check_cert_issuer=true
+info|2020-11-25 04:52:58.389623|[CHANNEL]ChannelRPCServer started
+info|2020-11-25 04:52:58.393701|[INITIALIZER][RPCInitializer]ChannelRPCHttpServer started.
+info|2020-11-25 04:52:58.393741|[INITIALIZER][LedgerInitializer]initConfig
+info|2020-11-25 04:52:58.393762|[LedgerInitializer],groupConfigPath=conf/
+info|2020-11-25 04:52:58.393909|[INITIALIZER][initSingleLedger] [GroupId], LedgerConstructor:  1,configFileName=conf/group.1.genesis,dataDir=data/
+info|2020-11-25 04:52:58.394529|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2020-11-25 04:52:58.398733|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2020-11-25 04:52:58.402491|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2020-11-25 04:52:58.402553|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2020-11-25 04:52:58.402602|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2020-11-25 04:52:58.402783|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:41610
+info|2020-11-25 04:52:58.402826|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2020-11-25 04:52:58.416196|[g:1][LedgerParam][parseGenesisConfig]initConsensusConfig/initStorageConfig/initTxConfig,configFile=conf/group.1.genesis
+info|2020-11-25 04:52:58.416233|[g:1][LedgerParam][initConsensusConfig],type=pbft,consensusTimeout=3,maxTxNum=1000,txGasLimit=300000000
+info|2020-11-25 04:52:58.416260|[g:1][LedgerParam][parsePublicKeyListOfSection],sectionName=consensus,it.first=2fba64b0e957aa63f4fe34a6e01bda1e7c3cde666f7675b1985bb6c6f478a76b839242c0b4c0827c30e43b3d1e946c863eb58a7dc8e4eae3e3dd439a78bba140
+info|2020-11-25 04:52:58.416285|[g:1][LedgerParam][parsePublicKeyListOfSection],sectionName=consensus,it.first=5ae2db1c257ad0d1f68828d95b30668d270f7da75bd4d0c1aee9d5ada6da0fd0eb53b893d1c8a518e4884ea58fabfa5ea1c62f120045f1e512aa93b7df7a08f6
+info|2020-11-25 04:52:58.416308|[g:1][LedgerParam][parsePublicKeyListOfSection],sectionName=consensus,it.first=097c5791ab496e86ce3fca3b4f86fb8044b28d6b79ead1ba3c9c73f2cd1aa0aa5229d968795f246e8d08f9cf8102ed923e5e218f720efbc6c64c796a68837312
+info|2020-11-25 04:52:58.416331|[g:1][LedgerParam][parsePublicKeyListOfSection],sectionName=consensus,it.first=e323692331103d8387a51144a6a7aa96a40fbad612530e7563d7ea6a82261a995a4cac54ceb5c1c3ab0574eefb91d2d8cca3f4ae7286b13173001d0568620385
+info|2020-11-25 04:52:58.416345|[g:1][LedgerParam][parsePublicKeyListOfSection],totalPubKeySize=4
+info|2020-11-25 04:52:58.416371|[g:1][LedgerParam][max_block_range],maxBlockRange=0,maxBlockPerProcess=3
+info|2020-11-25 04:52:58.416387|[g:1][LedgerParam][parseGenesisConfig],timestamp=1605763987000
+info|2020-11-25 04:52:58.416406|[g:1][LedgerParam]setEVMFlags,enableFreeStorageVMSchedule=false,evmFlags=0
+info|2020-11-25 04:52:58.416430|[g:1][LedgerParam]store evmFlag,evmFlag=0
+info|2020-11-25 04:52:58.416451|[g:1][LedgerParam]store consensus time,consensusTimeout=3
+info|2020-11-25 04:52:58.416466|[g:1][LedgerParam][initMark],genesisMark=1-2fba64b0e957aa63f4fe34a6e01bda1e7c3cde666f7675b1985bb6c6f478a76b839242c0b4c0827c30e43b3d1e946c863eb58a7dc8e4eae3e3dd439a78bba140,5ae2db1c257ad0d1f68828d95b30668d270f7da75bd4d0c1aee9d5ada6da0fd0eb53b893d1c8a518e4884ea58fabfa5ea1c62f120045f1e512aa93b7df7a08f6,097c5791ab496e86ce3fca3b4f86fb8044b28d6b79ead1ba3c9c73f2cd1aa0aa5229d968795f246e8d08f9cf8102ed923e5e218f720efbc6c64c796a68837312,e323692331103d8387a51144a6a7aa96a40fbad612530e7563d7ea6a82261a995a4cac54ceb5c1c3ab0574eefb91d2d8cca3f4ae7286b13173001d0568620385,-pbft-storage-0-1000-300000000-3
+info|2020-11-25 04:52:58.416482|[g:1][LedgerParam][initIniConfig]initTxPoolConfig/initSyncConfig/initTxExecuteConfig,configFile=conf/group.1.ini
+info|2020-11-25 04:52:58.416645|[g:1][LedgerParam][initStorageConfig],stateType=storage,storageDB=rocksdb,storagePath=data//group1/block/RocksDB,baseDir=data//group1,dbtype=mysql,dbip=127.0.0.1,dbport=3306,dbcharset=utf8mb4,initconnections=15,maxconnections=50,scrollThreshold=2000
+info|2020-11-25 04:52:58.416673|[g:1][LedgerParam][initTxPoolConfig],txPoolLimit=150000,memorySizeLimit(MB)=512,notifyWorkerNum=2
+info|2020-11-25 04:52:58.416690|[g:1][LedgerParam][initSyncConfig],idleWaitMs=200
+info|2020-11-25 04:52:58.416708|[g:1][LedgerParam][initSyncConfig],enableSendTxsByTree=true,enableSendBlockStatusByTree=true
+info|2020-11-25 04:52:58.416725|[g:1][LedgerParam][initSyncConfig],gossipInterval=1000
+info|2020-11-25 04:52:58.416745|[g:1][LedgerParam][initSyncConfig],enableSendBlockStatusByTree=true,gossipInterval=1000,gossipPeers=3,syncTreeWidth=3,maxQueueSizeForBlockSync=536870912,txsStatusGossipMaxPeers=5
+info|2020-11-25 04:52:58.416761|[g:1][LedgerParam][InitTxExecuteConfig],enableParallel=true
+info|2020-11-25 04:52:58.416787|[g:1][LedgerParam][initConsensusIniConfig],maxTTL=2,minBlockGenerationTime=500,enablDynamicBlockSize=true,blockSizeIncreaseRatio=0.5,enableTTLOptimize=true,enablePrepareWithTxsHash=true
+info|2020-11-25 04:52:58.416814|[g:1][LedgerParam][initRPBFTConsensusIniConfig],broadcastPrepareByTree=true,prepareStatusBroadcastPercent=33,maxRequestMissedTxsWaitTime=100,maxRequestPrepareWaitTime=100
+info|2020-11-25 04:52:58.416830|[g:1][LedgerParam][initFlowControlConfig],maxQPS=9223372036854775807,outGoingBandwidth(Bytes)=9223372036854775807
+info|2020-11-25 04:52:58.416845|[g:1][LedgerParam]parseSDKAllowList,sdkAllowList=[],enableSDKAllowListControl=false
+info|2020-11-25 04:52:58.416870|[g:1][LEDGER][initLedger][DBInitializer]
+info|2020-11-25 04:52:58.416889|[g:1][LEDGER]setSDKAllowList,groupId=1,sdkAllowListSize=0
+info|2020-11-25 04:52:58.416906|[g:1][CHANNEL]registerSDKAllowListByGroupId,groupId=1,size=0
+info|2020-11-25 04:52:58.416920|[g:1][CHANNEL]Disable group-level sdk permission control for sdk allowlist is empty
+info|2020-11-25 04:52:58.416933|[g:1][DBINITIALIZER] [initStorageDB]
+info|2020-11-25 04:52:58.416946|[g:1][DBINITIALIZER] [initRocksDBStorage]
+info|2020-11-25 04:52:58.416978|[g:1][ROCKSDB]open rocksDB handler,path=data//group1/block/RocksDB
+info|2020-11-25 04:52:58.471278|[g:1][g:1][STORAGE][CachedStorage]Init flushStorage thread
+info|2020-11-25 04:52:58.471387|[g:1][DBINITIALIZER] [init CachedStorage],maxCapacity=32,maxForwardBlock=10
+info|2020-11-25 04:52:58.471408|[g:1][LEDGER][initLedger][initBlockChain]
+info|2020-11-25 04:52:58.471604|[g:1][LEDGER]set enableHexBlock to be false,version=33947648
+info|2020-11-25 04:52:58.471638|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock],shouldBuild=false
+info|2020-11-25 04:52:58.471984|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock]Already have the 0th block, 0th groupMark is equal to file groupMark.
+info|2020-11-25 04:52:58.472008|[g:1][LEDGER][initLedger]initBlockChain SUCC
+info|2020-11-25 04:52:58.484414|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:41610
+info|2020-11-25 04:52:58.484490|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:41610,local endpoint=127.0.0.1:30302,nodeID=097c5791...
+info|2020-11-25 04:52:58.487288|[g:1][DBINITIALIZER] [createStateFactory],type=storage
+info|2020-11-25 04:52:58.487312|[g:1][DBINITIALIZER] createStorageState SUCC
+info|2020-11-25 04:52:58.487326|[g:1][DBINITIALIZER] [createStateFactory SUCC]
+info|2020-11-25 04:52:58.487339|[g:1][DBINITIALIZER] createExecutiveContext...
+info|2020-11-25 04:52:58.487364|[g:1][LEDGER]createGasMetric,vmFlagType=0
+info|2020-11-25 04:52:58.487398|[g:1][LEDGER]createGasMetric
+info|2020-11-25 04:52:58.487422|[g:1][DBINITIALIZER] create precompiledGasFactory and precompiledResultFactory
+info|2020-11-25 04:52:58.487435|[g:1][DBINITIALIZER] createExecutiveContext SUCC
+info|2020-11-25 04:52:58.487449|[g:1][DBINITIALIZER] [setSyncNumForCachedStorage],syncNum=159
+info|2020-11-25 04:52:58.487463|[g:1][LEDGER][initNetworkBandWidthLimiter: outGoingBandwidthLimit has been disabled],groupId=1
+info|2020-11-25 04:52:58.487476|[g:1][LEDGER][QPSLimit has been disabled],groupId=1
+info|2020-11-25 04:52:58.487489|[g:1][LEDGER][initLedger][initBlockVerifier]
+info|2020-11-25 04:52:58.487503|[g:1][LEDGER][initLedger][initBlockVerifier SUCC],evmFlags=0
+info|2020-11-25 04:52:58.487516|[g:1][LEDGER][initLedger][initTxPool],txPoolLimit=150000
+info|2020-11-25 04:52:58.520656|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:41610
+info|2020-11-25 04:52:58.520714|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30302,local endpoint=127.0.0.1:41610,nodeID=097c5791...
+info|2020-11-25 04:52:58.587924|[g:1][LEDGER][initLedger]initTxPool SUCC
+info|2020-11-25 04:52:58.587950|[g:1][LEDGER][initLedger][initSync],idleWaitMs=200,gossipInterval=1000,gossipPeers=3
+info|2020-11-25 04:52:58.587965|[g:1][LEDGER]Init sync master,enableSendBlockStatusByTree=true,enableSendTxsByTree=true
+info|2020-11-25 04:52:58.590062|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:38072
+info|2020-11-25 04:52:58.590139|[P2P][Service] Connection established,nodeID=e3236923...,endpoint=127.0.0.1:30303
+info|2020-11-25 04:52:58.590162|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30303,local endpoint=127.0.0.1:38072,nodeID=e3236923...
+info|2020-11-25 04:52:58.591411|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:51654
+info|2020-11-25 04:52:58.591466|[P2P][Service] Connection established,nodeID=5ae2db1c...,endpoint=127.0.0.1:30301
+info|2020-11-25 04:52:58.591488|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:51654,nodeID=5ae2db1c...
+info|2020-11-25 04:52:58.592024|[g:1][LEDGER][initLedger]initSync SUCC
+info|2020-11-25 04:52:58.592046|[g:1][LEDGER][initLedger][consensusInitFactory]
+info|2020-11-25 04:52:58.592060|[g:1][LEDGER][initLedger][createPBFTSealer]
+info|2020-11-25 04:52:58.592073|[g:1][LEDGER][initLedger][createPBFTSealer],baseDir=data//group1,Protocol=65544
+info|2020-11-25 04:52:58.592088|[g:1][LEDGER][initLedger]createPBFTSealer for PBFT or rPBFT,consensusType=pbft
+info|2020-11-25 04:52:58.592102|[g:1][LEDGER]createConsensusEngine: create PBFTEngine
+info|2020-11-25 04:52:58.592117|[g:1][CONSENSUS][PBFT]Register handler for PBFTEngine
+info|2020-11-25 04:52:58.592446|[g:1][CONSENSUS][PBFT]setMinBlockGenerationTime,minBlockGenerationTime=500,consensusTime=1000
+info|2020-11-25 04:52:58.592470|[g:1][LEDGER][initEventLogFilterManager]initEventLogFilterManager SUCC
+info|2020-11-25 04:52:58.592485|[LedgerInitializer init group succ],groupID=1
+info|2020-11-25 04:52:58.592712|[INITIALIZER][RPCInitializer JsonrpcHttpServer started],jsonrpc_IP=127.0.0.1,jsonrpc_listen_port=8547,ipv6=false
+info|2020-11-25 04:52:58.592733|[g:1][LEDGER]startAll...
+info|2020-11-25 04:52:58.606283|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:46548
+info|2020-11-25 04:52:58.606359|[P2P][Service] Connection established,nodeID=2fba64b0...,endpoint=127.0.0.1:30300
+info|2020-11-25 04:52:58.606384|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30300,local endpoint=127.0.0.1:46548,nodeID=2fba64b0...
+info|2020-11-25 04:52:58.615626|[g:1][GossipBlockStatus]start GossipBlockStatus succ
+info|2020-11-25 04:52:58.615657|[g:1][CONSENSUS][ConsensusEngine][Start ConsensusEngineBase]
+info|2020-11-25 04:52:58.623291|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=159,sealerIdx=3,hash=8a804b61...,next=160,tx=1,nodeIdx=0
+info|2020-11-25 04:52:58.623318|[g:1][ROCKSDB]open rocksDB handler,path=data//group1/pbftMsgBackup/RocksDB
+info|2020-11-25 04:52:58.628277|[g:1][NodeTimeMaintenance]updateTimeInfo: update median time offset,updatedMedianTimeOffset=0,peer=5ae2db1c...,peerTime=1606297978628,peerOffset=0,utcTime=1606297978628
+info|2020-11-25 04:52:58.635699|[g:1][CONSENSUS][PBFT][PBFT init env successfully]
+info|2020-11-25 04:52:58.635707|[g:1][CONSENSUS][PBFT][Start PBFTEngine...]
+info|2020-11-25 04:52:58.635711|[g:1][CONSENSUS][SEALER][Start sealer module]
+info|2020-11-25 04:52:58.636252|[g:1][EVENT][EventLogFilterManager]start,m_maxBlockRange=0,m_maxBlockPerLoopFilter=3
+info|2020-11-25 04:52:58.815962|[g:1][NodeTimeMaintenance]updateTimeInfo: update median time offset,updatedMedianTimeOffset=0,peer=2fba64b0...,peerTime=1606297978815,peerOffset=0,utcTime=1606297978815
+info|2020-11-25 04:52:58.817555|[g:1][NodeTimeMaintenance]updateTimeInfo: update median time offset,updatedMedianTimeOffset=0,peer=e3236923...,peerTime=1606297978817,peerOffset=0,utcTime=1606297978817
+info|2020-11-25 04:52:59.644831|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=9507bcff...,time=0
+info|2020-11-25 04:52:59.648994|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=0,toView=1,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=3.327
+info|2020-11-25 04:52:59.651547|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=0,cur_changeCycle=1,to_view=1
+info|2020-11-25 04:53:00.652744|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=711eb628...
+info|2020-11-25 04:53:00.660456|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=1,toView=2,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.258
+info|2020-11-25 04:53:00.661924|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=1,cur_changeCycle=1,to_view=2
+info|2020-11-25 04:53:01.660972|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=21fbe9a7...,time=0
+info|2020-11-25 04:53:01.661273|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=2,toView=3,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.259
+info|2020-11-25 04:53:01.666134|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=2,cur_changeCycle=1,to_view=3
+info|2020-11-25 04:53:02.669759|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=a279108e...,time=0
+info|2020-11-25 04:53:02.669997|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=3,toView=4,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.207
+info|2020-11-25 04:53:02.671876|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=3,cur_changeCycle=1,to_view=4
+info|2020-11-25 04:53:03.674781|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=f01e5f3c...,time=0
+info|2020-11-25 04:53:03.675108|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=4,toView=5,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.289
+info|2020-11-25 04:53:03.681314|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=4,cur_changeCycle=1,to_view=5
+info|2020-11-25 04:53:04.682631|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=c8a22bcd...
+info|2020-11-25 04:53:04.699784|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=5,toView=6,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.247
+info|2020-11-25 04:53:04.701244|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=5,cur_changeCycle=1,to_view=6
+info|2020-11-25 04:53:05.700603|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=15cfb19e...,time=0
+info|2020-11-25 04:53:05.700906|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=6,toView=7,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.263
+info|2020-11-25 04:53:05.706773|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=6,cur_changeCycle=1,to_view=7
+info|2020-11-25 04:53:06.708951|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=d3840746...,time=0
+info|2020-11-25 04:53:06.709301|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=7,toView=8,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.316
+info|2020-11-25 04:53:06.713002|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=7,cur_changeCycle=1,to_view=8
+info|2020-11-25 04:53:07.714804|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=a7309a81...,time=0
+info|2020-11-25 04:53:07.715281|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=8,toView=9,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.425
+info|2020-11-25 04:53:07.723328|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=8,cur_changeCycle=1,to_view=9
+info|2020-11-25 04:53:08.357431|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:41618
+info|2020-11-25 04:53:08.357475|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2020-11-25 04:53:08.359987|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:41622
+info|2020-11-25 04:53:08.360022|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2020-11-25 04:53:08.366327|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:41624
+info|2020-11-25 04:53:08.366401|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2020-11-25 04:53:08.375101|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:41626
+info|2020-11-25 04:53:08.375167|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2020-11-25 04:53:08.391466|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:41624
+info|2020-11-25 04:53:08.391555|[P2P][Service] Connection established,nodeID=07351151...,endpoint=127.0.0.1:41624
+info|2020-11-25 04:53:08.391583|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:41624,local endpoint=127.0.0.1:30302,nodeID=07351151...
+info|2020-11-25 04:53:08.404202|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:53:08.404348|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:41626
+info|2020-11-25 04:53:08.404403|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:41626,local endpoint=127.0.0.1:30302,nodeID=5ae2db1c...
+info|2020-11-25 04:53:08.414244|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:41618
+info|2020-11-25 04:53:08.414298|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:41618,local endpoint=127.0.0.1:30302,nodeID=e3236923...
+info|2020-11-25 04:53:08.414424|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:41622
+info|2020-11-25 04:53:08.414463|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:41622,local endpoint=127.0.0.1:30302,nodeID=2fba64b0...
+info|2020-11-25 04:53:08.724379|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=a2884b04...
+info|2020-11-25 04:53:08.733072|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=9,toView=10,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.251
+info|2020-11-25 04:53:08.734237|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=9,cur_changeCycle=1,to_view=10
+info|2020-11-25 04:53:09.733729|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=8a796eb0...,time=0
+info|2020-11-25 04:53:09.734096|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=10,toView=11,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.33
+info|2020-11-25 04:53:09.739521|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=10,cur_changeCycle=1,to_view=11
+info|2020-11-25 04:53:10.483937|[g:1][NodeTimeMaintenance]updateTimeInfo: update median time offset,updatedMedianTimeOffset=0,peer=07351151...,peerTime=1606297990483,peerOffset=0,utcTime=1606297990483
+info|2020-11-25 04:53:10.742074|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=45a9f24a...,time=0
+info|2020-11-25 04:53:10.742400|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=11,toView=12,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.295
+info|2020-11-25 04:53:10.746230|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=11,cur_changeCycle=1,to_view=12
+info|2020-11-25 04:53:11.747914|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=ddd9ebc3...,time=0
+info|2020-11-25 04:53:11.748201|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=12,toView=13,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.247
+info|2020-11-25 04:53:11.754622|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=12,cur_changeCycle=1,to_view=13
+info|2020-11-25 04:53:12.756915|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=485016bd...
+info|2020-11-25 04:53:12.764368|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=13,toView=14,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.258
+info|2020-11-25 04:53:12.765825|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=13,cur_changeCycle=1,to_view=14
+info|2020-11-25 04:53:13.764275|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=56ff6267...,time=0
+info|2020-11-25 04:53:13.764595|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=14,toView=15,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.284
+info|2020-11-25 04:53:13.769725|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=14,cur_changeCycle=1,to_view=15
+info|2020-11-25 04:53:14.773560|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=13cdef1c...,time=0
+info|2020-11-25 04:53:14.773890|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=15,toView=16,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.3
+info|2020-11-25 04:53:14.776041|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=15,cur_changeCycle=1,to_view=16
+info|2020-11-25 04:53:15.778374|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=bb9700f0...,time=0
+info|2020-11-25 04:53:15.778717|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=16,toView=17,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.305
+info|2020-11-25 04:53:15.784315|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=16,cur_changeCycle=1,to_view=17
+info|2020-11-25 04:53:16.785139|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8d325b7b...
+info|2020-11-25 04:53:16.795660|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17,toView=18,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.269
+info|2020-11-25 04:53:16.797282|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17,cur_changeCycle=1,to_view=18
+info|2020-11-25 04:53:17.793570|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=45d47342...,time=0
+info|2020-11-25 04:53:17.793938|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=18,toView=19,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.331
+info|2020-11-25 04:53:17.799662|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=18,cur_changeCycle=1,to_view=19
+info|2020-11-25 04:53:18.404790|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:53:18.803626|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=1af3ac9c...,time=0
+info|2020-11-25 04:53:18.808762|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=19,toView=20,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=5.071
+info|2020-11-25 04:53:18.811116|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=19,cur_changeCycle=1,to_view=20
+info|2020-11-25 04:53:19.815104|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=34400395...,time=0
+info|2020-11-25 04:53:19.815399|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=20,toView=21,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.253
+info|2020-11-25 04:53:19.820653|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=20,cur_changeCycle=1,to_view=21
+info|2020-11-25 04:53:20.821343|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=4fa68db9...
+info|2020-11-25 04:53:20.830083|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=21,toView=22,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.262
+info|2020-11-25 04:53:20.831543|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=21,cur_changeCycle=1,to_view=22
+info|2020-11-25 04:53:21.830975|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=bed2d469...,time=0
+info|2020-11-25 04:53:21.834135|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=22,toView=23,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=3.122
+info|2020-11-25 04:53:21.834902|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=22,cur_changeCycle=1,to_view=23
+info|2020-11-25 04:53:22.840036|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=988b9f0f...,time=0
+info|2020-11-25 04:53:22.840329|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=23,toView=24,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.265
+info|2020-11-25 04:53:22.843987|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=23,cur_changeCycle=1,to_view=24
+info|2020-11-25 04:53:23.846363|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=102a3bba...,time=0
+info|2020-11-25 04:53:23.846642|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=24,toView=25,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.245
+info|2020-11-25 04:53:23.852331|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=24,cur_changeCycle=1,to_view=25
+info|2020-11-25 04:53:24.852711|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=45cb82c2...
+info|2020-11-25 04:53:24.862293|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=25,toView=26,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.585
+info|2020-11-25 04:53:24.864150|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=25,cur_changeCycle=1,to_view=26
+info|2020-11-25 04:53:25.862522|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=95bef08a...,time=0
+info|2020-11-25 04:53:25.862852|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=26,toView=27,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.236
+info|2020-11-25 04:53:25.870587|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=26,cur_changeCycle=1,to_view=27
+info|2020-11-25 04:53:26.873984|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=cce6336a...,time=0
+info|2020-11-25 04:53:26.874286|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=27,toView=28,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.27
+info|2020-11-25 04:53:26.876654|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=27,cur_changeCycle=1,to_view=28
+info|2020-11-25 04:53:27.880787|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=c07172a8...,time=0
+info|2020-11-25 04:53:27.881127|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=28,toView=29,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.301
+info|2020-11-25 04:53:27.886056|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=28,cur_changeCycle=1,to_view=29
+info|2020-11-25 04:53:28.405276|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:53:28.887665|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=d29a10d2...
+info|2020-11-25 04:53:28.896085|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=29,toView=30,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.247
+info|2020-11-25 04:53:28.897588|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=29,cur_changeCycle=1,to_view=30
+info|2020-11-25 04:53:29.898978|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=9032161f...,time=0
+info|2020-11-25 04:53:29.899292|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=30,toView=31,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.269
+info|2020-11-25 04:53:29.904867|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=30,cur_changeCycle=1,to_view=31
+info|2020-11-25 04:53:30.908471|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=a84a4202...,time=0
+info|2020-11-25 04:53:30.908743|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=31,toView=32,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.237
+info|2020-11-25 04:53:30.912967|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=31,cur_changeCycle=1,to_view=32
+info|2020-11-25 04:53:31.913934|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=0c7896ce...,time=0
+info|2020-11-25 04:53:31.914285|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=32,toView=33,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.311
+info|2020-11-25 04:53:31.920489|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=32,cur_changeCycle=1,to_view=33
+info|2020-11-25 04:53:32.922129|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=528d5d76...
+info|2020-11-25 04:53:32.931208|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=33,toView=34,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.908
+info|2020-11-25 04:53:32.932481|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=33,cur_changeCycle=1,to_view=34
+info|2020-11-25 04:53:33.929725|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=205bfa2f...,time=0
+info|2020-11-25 04:53:33.930090|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=34,toView=35,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.293
+info|2020-11-25 04:53:33.936042|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=34,cur_changeCycle=1,to_view=35
+info|2020-11-25 04:53:34.940996|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=9b341f3e...,time=1
+info|2020-11-25 04:53:34.941255|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=35,toView=36,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.225
+info|2020-11-25 04:53:34.946930|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=35,cur_changeCycle=1,to_view=36
+info|2020-11-25 04:53:35.954353|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=a9161824...,time=0
+info|2020-11-25 04:53:35.954663|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=36,toView=37,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.264
+info|2020-11-25 04:53:35.955436|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=36,cur_changeCycle=1,to_view=37
+info|2020-11-25 04:53:36.955900|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=4cf1a235...
+info|2020-11-25 04:53:36.963919|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=37,toView=38,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.288
+info|2020-11-25 04:53:36.965404|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=37,cur_changeCycle=1,to_view=38
+info|2020-11-25 04:53:37.964672|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=006644e1...,time=0
+info|2020-11-25 04:53:37.964882|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=38,toView=39,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.18
+info|2020-11-25 04:53:37.968196|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=38,cur_changeCycle=1,to_view=39
+info|2020-11-25 04:53:38.405349|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:53:38.972533|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=0b9e3573...,time=0
+info|2020-11-25 04:53:38.972815|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=39,toView=40,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.258
+info|2020-11-25 04:53:38.976093|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=39,cur_changeCycle=1,to_view=40
+info|2020-11-25 04:53:39.977299|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=9d758433...,time=0
+info|2020-11-25 04:53:39.977587|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40,toView=41,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.244
+info|2020-11-25 04:53:39.982623|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40,cur_changeCycle=1,to_view=41
+info|2020-11-25 04:53:40.983411|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=010cd96e...
+info|2020-11-25 04:53:40.991949|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=41,toView=42,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.302
+info|2020-11-25 04:53:40.993458|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=41,cur_changeCycle=1,to_view=42
+info|2020-11-25 04:53:41.992624|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=f08036ba...,time=0
+info|2020-11-25 04:53:41.992998|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=42,toView=43,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.338
+info|2020-11-25 04:53:41.997658|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=42,cur_changeCycle=1,to_view=43
+info|2020-11-25 04:53:43.001763|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=664ef871...,time=0
+info|2020-11-25 04:53:43.002076|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=43,toView=44,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.275
+info|2020-11-25 04:53:43.004546|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=43,cur_changeCycle=1,to_view=44
+info|2020-11-25 04:53:44.008879|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=8dce3aef...,time=0
+info|2020-11-25 04:53:44.009215|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=44,toView=45,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.298
+info|2020-11-25 04:53:44.014729|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=44,cur_changeCycle=1,to_view=45
+info|2020-11-25 04:53:45.015496|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=934c159c...
+info|2020-11-25 04:53:45.023976|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=45,toView=46,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.241
+info|2020-11-25 04:53:45.025403|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=45,cur_changeCycle=1,to_view=46
+info|2020-11-25 04:53:46.025395|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=fc504591...,time=0
+info|2020-11-25 04:53:46.025712|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=46,toView=47,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.257
+info|2020-11-25 04:53:46.031246|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=46,cur_changeCycle=1,to_view=47
+info|2020-11-25 04:53:47.033717|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=077abf08...,time=0
+info|2020-11-25 04:53:47.033987|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=47,toView=48,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.236
+info|2020-11-25 04:53:47.036424|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=47,cur_changeCycle=1,to_view=48
+info|2020-11-25 04:53:48.039491|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=b5dcf8d3...,time=0
+info|2020-11-25 04:53:48.039799|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=48,toView=49,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:53:48.044527|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=48,cur_changeCycle=1,to_view=49
+info|2020-11-25 04:53:48.405449|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:53:49.044921|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=9ea50271...
+info|2020-11-25 04:53:49.055375|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=49,toView=50,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.273
+info|2020-11-25 04:53:49.056982|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=49,cur_changeCycle=1,to_view=50
+info|2020-11-25 04:53:50.056954|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=24d1e4ea...,time=0
+info|2020-11-25 04:53:50.057376|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=50,toView=51,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.381
+info|2020-11-25 04:53:50.064728|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=50,cur_changeCycle=1,to_view=51
+info|2020-11-25 04:53:51.067815|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=fc88beb3...,time=0
+info|2020-11-25 04:53:51.068105|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=51,toView=52,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.256
+info|2020-11-25 04:53:51.072748|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=51,cur_changeCycle=1,to_view=52
+info|2020-11-25 04:53:52.071949|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=5d8e00a5...,time=0
+info|2020-11-25 04:53:52.072293|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=52,toView=53,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.264
+info|2020-11-25 04:53:52.077187|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=52,cur_changeCycle=1,to_view=53
+info|2020-11-25 04:53:53.078831|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=82711235...
+info|2020-11-25 04:53:53.087977|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=53,toView=54,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.236
+info|2020-11-25 04:53:53.089316|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=53,cur_changeCycle=1,to_view=54
+info|2020-11-25 04:53:54.088541|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=5bac520f...,time=0
+info|2020-11-25 04:53:54.088878|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=54,toView=55,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:53:54.095192|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=54,cur_changeCycle=1,to_view=55
+info|2020-11-25 04:53:55.096769|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=a3efed67...,time=0
+info|2020-11-25 04:53:55.097130|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=55,toView=56,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.327
+info|2020-11-25 04:53:55.101743|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=55,cur_changeCycle=1,to_view=56
+info|2020-11-25 04:53:56.103761|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=069541c8...,time=0
+info|2020-11-25 04:53:56.104167|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=56,toView=57,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.316
+info|2020-11-25 04:53:56.109322|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=56,cur_changeCycle=1,to_view=57
+info|2020-11-25 04:53:57.110902|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=f361af0f...
+info|2020-11-25 04:53:57.121200|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=57,toView=58,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.315
+info|2020-11-25 04:53:57.122762|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=57,cur_changeCycle=1,to_view=58
+info|2020-11-25 04:53:58.122865|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=a62ddcd3...,time=0
+info|2020-11-25 04:53:58.123183|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=58,toView=59,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.275
+info|2020-11-25 04:53:58.129134|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=58,cur_changeCycle=1,to_view=59
+info|2020-11-25 04:53:58.405534|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:53:59.132494|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=9c44b411...,time=0
+info|2020-11-25 04:53:59.132789|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=59,toView=60,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:53:59.138990|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=59,cur_changeCycle=1,to_view=60
+info|2020-11-25 04:54:00.143771|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=980de756...,time=0
+info|2020-11-25 04:54:00.144076|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=60,toView=61,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.263
+info|2020-11-25 04:54:00.149440|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=60,cur_changeCycle=1,to_view=61
+info|2020-11-25 04:54:01.149377|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=dbd585ac...
+info|2020-11-25 04:54:01.159843|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=61,toView=62,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.288
+info|2020-11-25 04:54:01.161585|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=61,cur_changeCycle=1,to_view=62
+info|2020-11-25 04:54:02.161343|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=161f5421...,time=0
+info|2020-11-25 04:54:02.161646|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=62,toView=63,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.26
+info|2020-11-25 04:54:02.167396|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=62,cur_changeCycle=1,to_view=63
+info|2020-11-25 04:54:03.170110|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=6753bb68...,time=0
+info|2020-11-25 04:54:03.170414|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=63,toView=64,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.269
+info|2020-11-25 04:54:03.173108|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=63,cur_changeCycle=1,to_view=64
+info|2020-11-25 04:54:04.179964|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=3c5247ad...,time=0
+info|2020-11-25 04:54:04.180321|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=64,toView=65,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.323
+info|2020-11-25 04:54:04.184462|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=64,cur_changeCycle=1,to_view=65
+info|2020-11-25 04:54:05.184601|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=24789f8a...
+info|2020-11-25 04:54:05.194207|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=65,toView=66,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.35
+info|2020-11-25 04:54:05.196117|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=65,cur_changeCycle=1,to_view=66
+info|2020-11-25 04:54:06.195078|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=16fb323a...,time=0
+info|2020-11-25 04:54:06.195357|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=66,toView=67,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.232
+info|2020-11-25 04:54:06.200551|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=66,cur_changeCycle=1,to_view=67
+info|2020-11-25 04:54:07.201882|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=cd073d30...,time=0
+info|2020-11-25 04:54:07.202166|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=67,toView=68,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:54:07.204393|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=67,cur_changeCycle=1,to_view=68
+info|2020-11-25 04:54:08.208405|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=ea0095cf...,time=0
+info|2020-11-25 04:54:08.208736|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=68,toView=69,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.29
+info|2020-11-25 04:54:08.214107|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=68,cur_changeCycle=1,to_view=69
+info|2020-11-25 04:54:08.405625|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:54:09.214430|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=029978dc...
+info|2020-11-25 04:54:09.227126|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=69,toView=70,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.42
+info|2020-11-25 04:54:09.229489|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=69,cur_changeCycle=1,to_view=70
+info|2020-11-25 04:54:10.228649|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=5336a6e6...,time=0
+info|2020-11-25 04:54:10.229115|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=70,toView=71,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.404
+info|2020-11-25 04:54:10.238899|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=70,cur_changeCycle=1,to_view=71
+info|2020-11-25 04:54:11.240077|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=7fcecfdf...,time=0
+info|2020-11-25 04:54:11.240471|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=71,toView=72,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.346
+info|2020-11-25 04:54:11.244306|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=71,cur_changeCycle=1,to_view=72
+info|2020-11-25 04:54:12.249733|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=22261582...,time=0
+info|2020-11-25 04:54:12.250149|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=72,toView=73,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.364
+info|2020-11-25 04:54:12.258059|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=72,cur_changeCycle=1,to_view=73
+info|2020-11-25 04:54:13.258373|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=d925ae52...
+info|2020-11-25 04:54:13.268038|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=73,toView=74,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.305
+info|2020-11-25 04:54:13.269601|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=73,cur_changeCycle=1,to_view=74
+info|2020-11-25 04:54:14.268766|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=ee021df8...,time=0
+info|2020-11-25 04:54:14.269110|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=74,toView=75,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.306
+info|2020-11-25 04:54:14.275684|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=74,cur_changeCycle=1,to_view=75
+info|2020-11-25 04:54:15.281155|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=8dfb8d4a...,time=0
+info|2020-11-25 04:54:15.281546|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=75,toView=76,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.344
+info|2020-11-25 04:54:15.284677|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=75,cur_changeCycle=1,to_view=76
+info|2020-11-25 04:54:16.288171|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=46c6ea86...,time=0
+info|2020-11-25 04:54:16.288429|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=76,toView=77,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.224
+info|2020-11-25 04:54:16.293122|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=76,cur_changeCycle=1,to_view=77
+info|2020-11-25 04:54:17.293687|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8f500e77...
+info|2020-11-25 04:54:17.305067|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=77,toView=78,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.365
+info|2020-11-25 04:54:17.307180|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=77,cur_changeCycle=1,to_view=78
+info|2020-11-25 04:54:18.306612|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=0fb973c3...,time=0
+info|2020-11-25 04:54:18.306987|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=78,toView=79,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.328
+info|2020-11-25 04:54:18.313385|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=78,cur_changeCycle=1,to_view=79
+info|2020-11-25 04:54:18.405712|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:54:19.315914|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=dda12ef6...,time=0
+info|2020-11-25 04:54:19.316282|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=79,toView=80,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.335
+info|2020-11-25 04:54:19.321077|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=79,cur_changeCycle=1,to_view=80
+info|2020-11-25 04:54:20.323809|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=6cbe431f...,time=0
+info|2020-11-25 04:54:20.324190|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=80,toView=81,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.329
+info|2020-11-25 04:54:20.331228|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=80,cur_changeCycle=1,to_view=81
+info|2020-11-25 04:54:21.332233|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=5bc6b20b...
+info|2020-11-25 04:54:21.341895|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=81,toView=82,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.369
+info|2020-11-25 04:54:21.344037|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=81,cur_changeCycle=1,to_view=82
+info|2020-11-25 04:54:22.344368|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=02930c1a...,time=0
+info|2020-11-25 04:54:22.344763|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=82,toView=83,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.343
+info|2020-11-25 04:54:22.351971|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=82,cur_changeCycle=1,to_view=83
+info|2020-11-25 04:54:23.354817|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=92e05c25...,time=0
+info|2020-11-25 04:54:23.355124|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=83,toView=84,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.274
+info|2020-11-25 04:54:23.357461|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=83,cur_changeCycle=1,to_view=84
+info|2020-11-25 04:54:24.360746|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=dac12460...,time=0
+info|2020-11-25 04:54:24.361028|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=84,toView=85,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.238
+info|2020-11-25 04:54:24.366678|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=84,cur_changeCycle=1,to_view=85
+info|2020-11-25 04:54:25.366672|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=65551fae...
+info|2020-11-25 04:54:25.392387|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=85,toView=86,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=13.699
+info|2020-11-25 04:54:25.393531|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=85,cur_changeCycle=1,to_view=86
+info|2020-11-25 04:54:26.380873|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=5c50215c...,time=0
+info|2020-11-25 04:54:26.381305|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=86,toView=87,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.376
+info|2020-11-25 04:54:26.388439|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=86,cur_changeCycle=1,to_view=87
+info|2020-11-25 04:54:27.391739|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=cb2fd797...,time=0
+info|2020-11-25 04:54:27.392077|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=87,toView=88,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:54:27.394480|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=87,cur_changeCycle=1,to_view=88
+info|2020-11-25 04:54:28.398770|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=bbbaa113...,time=0
+info|2020-11-25 04:54:28.403003|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=88,toView=89,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=4.179
+info|2020-11-25 04:54:28.405953|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:54:28.407511|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=88,cur_changeCycle=1,to_view=89
+info|2020-11-25 04:54:29.408716|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=e4ebd59d...
+info|2020-11-25 04:54:29.416968|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=89,toView=90,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.248
+info|2020-11-25 04:54:29.418442|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=89,cur_changeCycle=1,to_view=90
+info|2020-11-25 04:54:30.420486|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=6c4e0ed1...,time=0
+info|2020-11-25 04:54:30.420859|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=90,toView=91,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.327
+info|2020-11-25 04:54:30.426853|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=90,cur_changeCycle=1,to_view=91
+info|2020-11-25 04:54:31.430629|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=e98ef065...,time=0
+info|2020-11-25 04:54:31.430975|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=91,toView=92,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.284
+info|2020-11-25 04:54:31.435329|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=91,cur_changeCycle=1,to_view=92
+info|2020-11-25 04:54:32.434590|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=f159ff79...,time=0
+info|2020-11-25 04:54:32.434936|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=92,toView=93,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.309
+info|2020-11-25 04:54:32.439665|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=92,cur_changeCycle=1,to_view=93
+info|2020-11-25 04:54:33.440459|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=72cafdd2...
+info|2020-11-25 04:54:33.452084|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=93,toView=94,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.352
+info|2020-11-25 04:54:33.454229|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=93,cur_changeCycle=1,to_view=94
+info|2020-11-25 04:54:34.452852|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=bc25a31a...,time=0
+info|2020-11-25 04:54:34.453152|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=94,toView=95,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.259
+info|2020-11-25 04:54:34.459481|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=94,cur_changeCycle=1,to_view=95
+info|2020-11-25 04:54:35.464154|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=2c294cbf...,time=0
+info|2020-11-25 04:54:35.464600|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=95,toView=96,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.402
+info|2020-11-25 04:54:35.469524|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=95,cur_changeCycle=1,to_view=96
+info|2020-11-25 04:54:36.474461|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=6a90676b...,time=0
+info|2020-11-25 04:54:36.474865|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=96,toView=97,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.346
+info|2020-11-25 04:54:36.482040|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=96,cur_changeCycle=1,to_view=97
+info|2020-11-25 04:54:37.482502|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=6a159b1f...
+info|2020-11-25 04:54:37.493382|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=97,toView=98,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.358
+info|2020-11-25 04:54:37.495448|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=97,cur_changeCycle=1,to_view=98
+info|2020-11-25 04:54:38.406044|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:54:38.494525|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=bc3a0cac...,time=0
+info|2020-11-25 04:54:38.494927|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=98,toView=99,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.349
+info|2020-11-25 04:54:38.505097|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=98,cur_changeCycle=1,to_view=99
+info|2020-11-25 04:54:39.509753|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=19d7f228...,time=0
+info|2020-11-25 04:54:39.514281|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=99,toView=100,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=4.484
+info|2020-11-25 04:54:39.518271|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=99,cur_changeCycle=1,to_view=100
+info|2020-11-25 04:54:40.521084|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=93ede3bb...,time=0
+info|2020-11-25 04:54:40.521481|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=100,toView=101,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.346
+info|2020-11-25 04:54:40.529115|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=100,cur_changeCycle=1,to_view=101
+info|2020-11-25 04:54:41.529696|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=5c11c4f1...
+info|2020-11-25 04:54:41.540501|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=101,toView=102,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.352
+info|2020-11-25 04:54:41.542545|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=101,cur_changeCycle=1,to_view=102
+info|2020-11-25 04:54:42.541109|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=95759aca...,time=0
+info|2020-11-25 04:54:42.541515|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=102,toView=103,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.354
+info|2020-11-25 04:54:42.549164|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=102,cur_changeCycle=1,to_view=103
+info|2020-11-25 04:54:43.550881|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=0d289a11...,time=0
+info|2020-11-25 04:54:43.551323|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=103,toView=104,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.395
+info|2020-11-25 04:54:43.554461|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=103,cur_changeCycle=1,to_view=104
+info|2020-11-25 04:54:44.561957|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=e2adabf5...,time=0
+info|2020-11-25 04:54:44.562410|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=104,toView=105,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.401
+info|2020-11-25 04:54:44.569699|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=104,cur_changeCycle=1,to_view=105
+info|2020-11-25 04:54:45.570135|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=bc4f1c6e...
+info|2020-11-25 04:54:45.582147|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=105,toView=106,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.388
+info|2020-11-25 04:54:45.584267|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=105,cur_changeCycle=1,to_view=106
+info|2020-11-25 04:54:46.583102|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=72887eb8...,time=0
+info|2020-11-25 04:54:46.583555|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=106,toView=107,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.351
+info|2020-11-25 04:54:46.591163|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=106,cur_changeCycle=1,to_view=107
+info|2020-11-25 04:54:47.595358|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=0918d24b...,time=0
+info|2020-11-25 04:54:47.595747|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=107,toView=108,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.339
+info|2020-11-25 04:54:47.599620|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=107,cur_changeCycle=1,to_view=108
+info|2020-11-25 04:54:48.406150|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:54:48.603578|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=76f6b63e...,time=0
+info|2020-11-25 04:54:48.604029|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=108,toView=109,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.399
+info|2020-11-25 04:54:48.611219|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=108,cur_changeCycle=1,to_view=109
+info|2020-11-25 04:54:49.613190|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=31fac021...
+info|2020-11-25 04:54:49.623632|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=109,toView=110,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.365
+info|2020-11-25 04:54:49.625239|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=109,cur_changeCycle=1,to_view=110
+info|2020-11-25 04:54:50.624029|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=b69534cc...,time=0
+info|2020-11-25 04:54:50.624453|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=110,toView=111,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.383
+info|2020-11-25 04:54:50.632174|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=110,cur_changeCycle=1,to_view=111
+info|2020-11-25 04:54:51.634686|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=251b9465...,time=0
+info|2020-11-25 04:54:51.635064|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=111,toView=112,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.34
+info|2020-11-25 04:54:51.638022|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=111,cur_changeCycle=1,to_view=112
+info|2020-11-25 04:54:52.649922|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=1d671fa7...,time=0
+info|2020-11-25 04:54:52.650227|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=112,toView=113,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.266
+info|2020-11-25 04:54:52.651291|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=112,cur_changeCycle=1,to_view=113
+info|2020-11-25 04:54:53.651749|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=745975ed...
+info|2020-11-25 04:54:53.660680|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=113,toView=114,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.344
+info|2020-11-25 04:54:53.662632|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=113,cur_changeCycle=1,to_view=114
+info|2020-11-25 04:54:54.661318|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=31f181df...,time=0
+info|2020-11-25 04:54:54.661703|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=114,toView=115,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.336
+info|2020-11-25 04:54:54.668129|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=114,cur_changeCycle=1,to_view=115
+info|2020-11-25 04:54:55.671000|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=c8d43930...,time=1
+info|2020-11-25 04:54:55.671288|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=115,toView=116,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:54:55.675090|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=115,cur_changeCycle=1,to_view=116
+info|2020-11-25 04:54:56.678985|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=2f8621dd...,time=0
+info|2020-11-25 04:54:56.679485|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=116,toView=117,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.464
+info|2020-11-25 04:54:56.683986|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=116,cur_changeCycle=1,to_view=117
+info|2020-11-25 04:54:57.686145|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=b3def4d7...
+info|2020-11-25 04:54:57.692971|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=117,toView=118,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.256
+info|2020-11-25 04:54:57.694338|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=117,cur_changeCycle=1,to_view=118
+info|2020-11-25 04:54:58.406276|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:54:58.694050|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=20046ca6...,time=0
+info|2020-11-25 04:54:58.694333|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=118,toView=119,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.242
+info|2020-11-25 04:54:58.698613|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=118,cur_changeCycle=1,to_view=119
+info|2020-11-25 04:54:59.702070|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=d5597889...,time=0
+info|2020-11-25 04:54:59.702329|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=119,toView=120,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.233
+info|2020-11-25 04:54:59.705467|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=119,cur_changeCycle=1,to_view=120
+info|2020-11-25 04:55:00.710418|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=8071ace9...,time=0
+info|2020-11-25 04:55:00.710704|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=120,toView=121,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.246
+info|2020-11-25 04:55:00.714975|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=120,cur_changeCycle=1,to_view=121
+info|2020-11-25 04:55:01.716478|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=7ec920c7...
+info|2020-11-25 04:55:01.727918|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=121,toView=122,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.401
+info|2020-11-25 04:55:01.730035|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=121,cur_changeCycle=1,to_view=122
+info|2020-11-25 04:55:02.729051|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=eb0cb531...,time=0
+info|2020-11-25 04:55:02.729491|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=122,toView=123,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.387
+info|2020-11-25 04:55:02.737621|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=122,cur_changeCycle=1,to_view=123
+info|2020-11-25 04:55:03.739613|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=198e4464...,time=0
+info|2020-11-25 04:55:03.741085|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=123,toView=124,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=1.442
+info|2020-11-25 04:55:03.744326|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=123,cur_changeCycle=1,to_view=124
+info|2020-11-25 04:55:04.744621|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=d110ecf6...,time=0
+info|2020-11-25 04:55:04.744931|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=124,toView=125,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.25
+info|2020-11-25 04:55:04.751155|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=124,cur_changeCycle=1,to_view=125
+info|2020-11-25 04:55:05.751122|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=80a0e3dc...
+info|2020-11-25 04:55:05.761250|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=125,toView=126,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.23
+info|2020-11-25 04:55:05.763306|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=125,cur_changeCycle=1,to_view=126
+info|2020-11-25 04:55:06.764501|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=a136831e...,time=0
+info|2020-11-25 04:55:06.764955|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=126,toView=127,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.351
+info|2020-11-25 04:55:06.773510|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=126,cur_changeCycle=1,to_view=127
+info|2020-11-25 04:55:07.776410|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=4dfd9719...,time=0
+info|2020-11-25 04:55:07.776835|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=127,toView=128,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.387
+info|2020-11-25 04:55:07.779947|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=127,cur_changeCycle=1,to_view=128
+info|2020-11-25 04:55:08.406406|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:55:08.782544|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=b2205912...,time=0
+info|2020-11-25 04:55:08.782883|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=128,toView=129,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.303
+info|2020-11-25 04:55:08.787926|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=128,cur_changeCycle=1,to_view=129
+info|2020-11-25 04:55:09.788682|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=c530a4b9...
+info|2020-11-25 04:55:09.798329|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=129,toView=130,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.307
+info|2020-11-25 04:55:09.799928|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=129,cur_changeCycle=1,to_view=130
+info|2020-11-25 04:55:10.801260|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=36d7e683...,time=0
+info|2020-11-25 04:55:10.801533|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=130,toView=131,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.236
+info|2020-11-25 04:55:10.806572|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=130,cur_changeCycle=1,to_view=131
+info|2020-11-25 04:55:11.810603|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=f872457f...,time=0
+info|2020-11-25 04:55:11.810898|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=131,toView=132,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.257
+info|2020-11-25 04:55:11.814049|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=131,cur_changeCycle=1,to_view=132
+info|2020-11-25 04:55:12.817210|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=1a416a07...,time=0
+info|2020-11-25 04:55:12.817605|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=132,toView=133,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.344
+info|2020-11-25 04:55:12.824172|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=132,cur_changeCycle=1,to_view=133
+info|2020-11-25 04:55:13.825518|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=f2f486aa...
+info|2020-11-25 04:55:13.836325|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=133,toView=134,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.433
+info|2020-11-25 04:55:13.838312|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=133,cur_changeCycle=1,to_view=134
+info|2020-11-25 04:55:14.836479|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=39f30e84...,time=0
+info|2020-11-25 04:55:14.836799|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=134,toView=135,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:55:14.845081|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=134,cur_changeCycle=1,to_view=135
+info|2020-11-25 04:55:15.853295|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=9187c103...,time=0
+info|2020-11-25 04:55:15.854108|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=135,toView=136,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.78
+info|2020-11-25 04:55:15.857506|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=135,cur_changeCycle=1,to_view=136
+info|2020-11-25 04:55:16.862495|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=f187de5f...,time=0
+info|2020-11-25 04:55:16.862760|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=136,toView=137,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.23
+info|2020-11-25 04:55:16.864330|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=136,cur_changeCycle=1,to_view=137
+info|2020-11-25 04:55:17.865466|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=5edd0bbf...
+info|2020-11-25 04:55:17.873291|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=137,toView=138,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.242
+info|2020-11-25 04:55:17.874338|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=137,cur_changeCycle=1,to_view=138
+info|2020-11-25 04:55:18.406522|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:55:18.873695|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=e72acb04...,time=0
+info|2020-11-25 04:55:18.874002|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=138,toView=139,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.235
+info|2020-11-25 04:55:18.878938|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=138,cur_changeCycle=1,to_view=139
+info|2020-11-25 04:55:19.883808|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=61e09bcc...,time=0
+info|2020-11-25 04:55:19.884089|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=139,toView=140,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.251
+info|2020-11-25 04:55:19.886875|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=139,cur_changeCycle=1,to_view=140
+info|2020-11-25 04:55:20.892072|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=287aeae0...,time=0
+info|2020-11-25 04:55:20.892355|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=140,toView=141,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.244
+info|2020-11-25 04:55:20.897256|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=140,cur_changeCycle=1,to_view=141
+info|2020-11-25 04:55:21.898855|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=5605133f...
+info|2020-11-25 04:55:21.906388|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=141,toView=142,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.246
+info|2020-11-25 04:55:21.907772|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=141,cur_changeCycle=1,to_view=142
+info|2020-11-25 04:55:22.907384|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=778fd10e...,time=0
+info|2020-11-25 04:55:22.907652|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=142,toView=143,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.232
+info|2020-11-25 04:55:22.912616|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=142,cur_changeCycle=1,to_view=143
+info|2020-11-25 04:55:23.915431|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=de77a709...,time=0
+info|2020-11-25 04:55:23.915727|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=143,toView=144,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.258
+info|2020-11-25 04:55:23.920508|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=143,cur_changeCycle=1,to_view=144
+info|2020-11-25 04:55:24.922606|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=55b4f98e...,time=0
+info|2020-11-25 04:55:24.922918|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=144,toView=145,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.272
+info|2020-11-25 04:55:24.928122|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=144,cur_changeCycle=1,to_view=145
+info|2020-11-25 04:55:25.928450|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=5631c2ff...
+info|2020-11-25 04:55:25.937884|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=145,toView=146,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.283
+info|2020-11-25 04:55:25.939551|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=145,cur_changeCycle=1,to_view=146
+info|2020-11-25 04:55:26.938653|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=a07fa8a1...,time=0
+info|2020-11-25 04:55:26.938956|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=146,toView=147,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:55:26.942989|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=146,cur_changeCycle=1,to_view=147
+info|2020-11-25 04:55:27.948025|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=9690fbc8...,time=0
+info|2020-11-25 04:55:27.948331|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=147,toView=148,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:55:27.951509|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=147,cur_changeCycle=1,to_view=148
+info|2020-11-25 04:55:28.406613|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:55:28.956284|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=5a9f6791...,time=0
+info|2020-11-25 04:55:28.956549|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=148,toView=149,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.229
+info|2020-11-25 04:55:28.959974|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=148,cur_changeCycle=1,to_view=149
+info|2020-11-25 04:55:29.961081|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8060e219...
+info|2020-11-25 04:55:29.985636|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=149,toView=150,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.295
+info|2020-11-25 04:55:29.987505|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=149,cur_changeCycle=1,to_view=150
+info|2020-11-25 04:55:30.990246|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=783e1fa1...,time=0
+info|2020-11-25 04:55:30.990574|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=150,toView=151,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.286
+info|2020-11-25 04:55:30.995186|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=150,cur_changeCycle=1,to_view=151
+info|2020-11-25 04:55:31.998885|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=b6bd92c3...,time=0
+info|2020-11-25 04:55:31.999261|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=151,toView=152,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.344
+info|2020-11-25 04:55:32.003108|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=151,cur_changeCycle=1,to_view=152
+info|2020-11-25 04:55:33.006275|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=2705e6fa...,time=0
+info|2020-11-25 04:55:33.006588|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=152,toView=153,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.277
+info|2020-11-25 04:55:33.011431|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=152,cur_changeCycle=1,to_view=153
+info|2020-11-25 04:55:34.011458|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8f03fedb...
+info|2020-11-25 04:55:34.020015|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=153,toView=154,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.235
+info|2020-11-25 04:55:34.021758|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=153,cur_changeCycle=1,to_view=154
+info|2020-11-25 04:55:35.017486|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=69d34f17...,time=0
+info|2020-11-25 04:55:35.017831|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=154,toView=155,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.312
+info|2020-11-25 04:55:35.026300|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=154,cur_changeCycle=1,to_view=155
+info|2020-11-25 04:55:36.029631|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=edb880bc...,time=0
+info|2020-11-25 04:55:36.029947|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=155,toView=156,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.284
+info|2020-11-25 04:55:36.033759|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=155,cur_changeCycle=1,to_view=156
+info|2020-11-25 04:55:37.035495|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=7cd467e6...,time=0
+info|2020-11-25 04:55:37.035823|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=156,toView=157,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.292
+info|2020-11-25 04:55:37.040804|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=156,cur_changeCycle=1,to_view=157
+info|2020-11-25 04:55:38.042041|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=f60a9801...
+info|2020-11-25 04:55:38.050343|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=157,toView=158,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:55:38.051494|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=157,cur_changeCycle=1,to_view=158
+info|2020-11-25 04:55:38.406721|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:55:39.050558|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=fd7f611a...,time=0
+info|2020-11-25 04:55:39.050866|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=158,toView=159,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.275
+info|2020-11-25 04:55:39.055896|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=158,cur_changeCycle=1,to_view=159
+info|2020-11-25 04:55:40.058769|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=982bf461...,time=0
+info|2020-11-25 04:55:40.059089|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=159,toView=160,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.289
+info|2020-11-25 04:55:40.062312|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=159,cur_changeCycle=1,to_view=160
+info|2020-11-25 04:55:41.066680|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=2dd3490e...,time=0
+info|2020-11-25 04:55:41.066897|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=160,toView=161,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.185
+info|2020-11-25 04:55:41.071071|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=160,cur_changeCycle=1,to_view=161
+info|2020-11-25 04:55:42.072009|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=6cfc8a82...
+info|2020-11-25 04:55:42.089877|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=161,toView=162,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.35
+info|2020-11-25 04:55:42.095607|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=161,cur_changeCycle=1,to_view=162
+info|2020-11-25 04:55:43.097184|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=e6f23c93...,time=0
+info|2020-11-25 04:55:43.097468|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=162,toView=163,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.237
+info|2020-11-25 04:55:43.102269|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=162,cur_changeCycle=1,to_view=163
+info|2020-11-25 04:55:44.107107|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=b8c922e9...,time=0
+info|2020-11-25 04:55:44.107726|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=163,toView=164,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.563
+info|2020-11-25 04:55:44.122366|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=163,cur_changeCycle=1,to_view=164
+info|2020-11-25 04:55:45.119501|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=bb153dd6...,time=0
+info|2020-11-25 04:55:45.119795|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=164,toView=165,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.254
+info|2020-11-25 04:55:45.126318|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=164,cur_changeCycle=1,to_view=165
+info|2020-11-25 04:55:46.126681|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=900362c8...
+info|2020-11-25 04:55:46.135034|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=165,toView=166,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.24
+info|2020-11-25 04:55:46.136383|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=165,cur_changeCycle=1,to_view=166
+info|2020-11-25 04:55:47.136659|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=06ee5b54...,time=0
+info|2020-11-25 04:55:47.136983|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=166,toView=167,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.284
+info|2020-11-25 04:55:47.142601|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=166,cur_changeCycle=1,to_view=167
+info|2020-11-25 04:55:48.145901|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=8e86e5bd...,time=0
+info|2020-11-25 04:55:48.147545|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=167,toView=168,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=1.611
+info|2020-11-25 04:55:48.148402|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=167,cur_changeCycle=1,to_view=168
+info|2020-11-25 04:55:48.406814|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:55:49.152142|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=8b43ecc9...,time=0
+info|2020-11-25 04:55:49.152428|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=168,toView=169,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.249
+info|2020-11-25 04:55:49.156278|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=168,cur_changeCycle=1,to_view=169
+info|2020-11-25 04:55:50.157110|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=962077be...
+info|2020-11-25 04:55:50.166152|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=169,toView=170,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.266
+info|2020-11-25 04:55:50.167375|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=169,cur_changeCycle=1,to_view=170
+info|2020-11-25 04:55:51.167329|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=f0020dd0...,time=0
+info|2020-11-25 04:55:51.167660|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=170,toView=171,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.296
+info|2020-11-25 04:55:51.172836|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=170,cur_changeCycle=1,to_view=171
+info|2020-11-25 04:55:52.175811|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=360220e6...,time=0
+info|2020-11-25 04:55:52.177529|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=171,toView=172,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=1.685
+info|2020-11-25 04:55:52.178240|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=171,cur_changeCycle=1,to_view=172
+info|2020-11-25 04:55:53.181079|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=e9ceadaa...,time=0
+info|2020-11-25 04:55:53.181342|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=172,toView=173,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.229
+info|2020-11-25 04:55:53.185966|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=172,cur_changeCycle=1,to_view=173
+info|2020-11-25 04:55:54.186105|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=d64856d7...
+info|2020-11-25 04:55:54.194988|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=173,toView=174,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.288
+info|2020-11-25 04:55:54.196585|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=173,cur_changeCycle=1,to_view=174
+info|2020-11-25 04:55:55.197363|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=fffad272...,time=0
+info|2020-11-25 04:55:55.197668|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=174,toView=175,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.263
+info|2020-11-25 04:55:55.204177|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=174,cur_changeCycle=1,to_view=175
+info|2020-11-25 04:55:56.206716|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=a5fed4bd...,time=0
+info|2020-11-25 04:55:56.207062|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=175,toView=176,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.31
+info|2020-11-25 04:55:56.210553|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=175,cur_changeCycle=1,to_view=176
+info|2020-11-25 04:55:57.213091|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=df66ebf7...,time=0
+info|2020-11-25 04:55:57.213490|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=176,toView=177,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.359
+info|2020-11-25 04:55:57.219567|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=176,cur_changeCycle=1,to_view=177
+info|2020-11-25 04:55:58.220015|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8b80c02e...
+info|2020-11-25 04:55:58.228191|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=177,toView=178,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.308
+info|2020-11-25 04:55:58.230250|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=177,cur_changeCycle=1,to_view=178
+info|2020-11-25 04:55:58.406914|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:55:59.230411|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=51f34cea...,time=0
+info|2020-11-25 04:55:59.230728|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=178,toView=179,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.273
+info|2020-11-25 04:55:59.236093|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=178,cur_changeCycle=1,to_view=179
+info|2020-11-25 04:56:00.238837|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=e572c51d...,time=0
+info|2020-11-25 04:56:00.239121|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=179,toView=180,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.25
+info|2020-11-25 04:56:00.242823|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=179,cur_changeCycle=1,to_view=180
+info|2020-11-25 04:56:01.247758|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=87e2cce9...,time=0
+info|2020-11-25 04:56:01.248113|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=180,toView=181,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.315
+info|2020-11-25 04:56:01.253410|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=180,cur_changeCycle=1,to_view=181
+info|2020-11-25 04:56:02.254118|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=33935430...
+info|2020-11-25 04:56:02.262126|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=181,toView=182,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.329
+info|2020-11-25 04:56:02.263826|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=181,cur_changeCycle=1,to_view=182
+info|2020-11-25 04:56:03.263995|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=6e68e1f8...,time=1
+info|2020-11-25 04:56:03.264313|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=182,toView=183,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:56:03.271584|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=182,cur_changeCycle=1,to_view=183
+info|2020-11-25 04:56:04.273650|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=a70e36b3...,time=0
+info|2020-11-25 04:56:04.273919|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=183,toView=184,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.237
+info|2020-11-25 04:56:04.276145|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=183,cur_changeCycle=1,to_view=184
+info|2020-11-25 04:56:05.279226|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=5f8baf62...,time=0
+info|2020-11-25 04:56:05.279612|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=184,toView=185,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.342
+info|2020-11-25 04:56:05.286490|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=184,cur_changeCycle=1,to_view=185
+info|2020-11-25 04:56:06.287729|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=d5c9c68f...
+info|2020-11-25 04:56:06.295905|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=185,toView=186,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.242
+info|2020-11-25 04:56:06.297334|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=185,cur_changeCycle=1,to_view=186
+info|2020-11-25 04:56:07.296658|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=176254c4...,time=0
+info|2020-11-25 04:56:07.297045|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=186,toView=187,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.343
+info|2020-11-25 04:56:07.302570|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=186,cur_changeCycle=1,to_view=187
+info|2020-11-25 04:56:08.305068|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=dd787c2c...,time=0
+info|2020-11-25 04:56:08.305361|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=187,toView=188,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.262
+info|2020-11-25 04:56:08.307659|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=187,cur_changeCycle=1,to_view=188
+info|2020-11-25 04:56:08.407020|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:56:09.311955|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=a6c709cb...,time=0
+info|2020-11-25 04:56:09.312266|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=188,toView=189,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.268
+info|2020-11-25 04:56:09.317636|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=188,cur_changeCycle=1,to_view=189
+info|2020-11-25 04:56:10.320591|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8ca7ee83...
+info|2020-11-25 04:56:10.328436|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=189,toView=190,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.253
+info|2020-11-25 04:56:10.330050|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=189,cur_changeCycle=1,to_view=190
+info|2020-11-25 04:56:11.332461|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=12d4e1c3...,time=0
+info|2020-11-25 04:56:11.332854|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=190,toView=191,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.354
+info|2020-11-25 04:56:11.334168|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=190,cur_changeCycle=1,to_view=191
+info|2020-11-25 04:56:12.338946|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=d54a0135...,time=2
+info|2020-11-25 04:56:12.340833|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=191,toView=192,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.276
+info|2020-11-25 04:56:12.341643|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=191,cur_changeCycle=1,to_view=192
+info|2020-11-25 04:56:13.347938|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=e520e25c...,time=0
+info|2020-11-25 04:56:13.348253|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=192,toView=193,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:56:13.348998|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=192,cur_changeCycle=1,to_view=193
+info|2020-11-25 04:56:14.350016|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=cf3bed28...
+info|2020-11-25 04:56:14.358716|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=193,toView=194,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.318
+info|2020-11-25 04:56:14.360396|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=193,cur_changeCycle=1,to_view=194
+info|2020-11-25 04:56:15.359464|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=f05a7547...,time=0
+info|2020-11-25 04:56:15.359759|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=194,toView=195,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:56:15.365192|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=194,cur_changeCycle=1,to_view=195
+info|2020-11-25 04:56:16.370643|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=84d715e3...,time=0
+info|2020-11-25 04:56:16.370979|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=195,toView=196,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.3
+info|2020-11-25 04:56:16.373800|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=195,cur_changeCycle=1,to_view=196
+info|2020-11-25 04:56:17.376561|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=b2462d09...,time=0
+info|2020-11-25 04:56:17.376842|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=196,toView=197,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.241
+info|2020-11-25 04:56:17.381676|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=196,cur_changeCycle=1,to_view=197
+info|2020-11-25 04:56:18.382177|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=808d4fa3...
+info|2020-11-25 04:56:18.390404|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=197,toView=198,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.307
+info|2020-11-25 04:56:18.392019|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=197,cur_changeCycle=1,to_view=198
+info|2020-11-25 04:56:18.407104|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:56:19.392342|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=ed85e4cb...,time=0
+info|2020-11-25 04:56:19.392720|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=198,toView=199,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.273
+info|2020-11-25 04:56:19.398112|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=198,cur_changeCycle=1,to_view=199
+info|2020-11-25 04:56:20.401475|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=4277fe28...,time=0
+info|2020-11-25 04:56:20.401763|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=199,toView=200,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.254
+info|2020-11-25 04:56:20.404955|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=199,cur_changeCycle=1,to_view=200
+info|2020-11-25 04:56:21.410880|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=1f6f589c...,time=0
+info|2020-11-25 04:56:21.411293|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=200,toView=201,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.372
+info|2020-11-25 04:56:21.416228|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=200,cur_changeCycle=1,to_view=201
+info|2020-11-25 04:56:22.418960|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=699e4a85...
+info|2020-11-25 04:56:22.427405|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=201,toView=202,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.267
+info|2020-11-25 04:56:22.429276|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=201,cur_changeCycle=1,to_view=202
+info|2020-11-25 04:56:23.427276|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=0aa60a56...,time=0
+info|2020-11-25 04:56:23.427592|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=202,toView=203,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.278
+info|2020-11-25 04:56:23.433411|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=202,cur_changeCycle=1,to_view=203
+info|2020-11-25 04:56:24.435850|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=09ba7c1e...,time=0
+info|2020-11-25 04:56:24.436208|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=203,toView=204,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.325
+info|2020-11-25 04:56:24.438528|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=203,cur_changeCycle=1,to_view=204
+info|2020-11-25 04:56:25.441514|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=b75169b6...,time=0
+info|2020-11-25 04:56:25.441802|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=204,toView=205,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.245
+info|2020-11-25 04:56:25.447451|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=204,cur_changeCycle=1,to_view=205
+info|2020-11-25 04:56:26.448804|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=6d14b4a8...
+info|2020-11-25 04:56:26.456444|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=205,toView=206,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.247
+info|2020-11-25 04:56:26.457421|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=205,cur_changeCycle=1,to_view=206
+info|2020-11-25 04:56:27.456935|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=d3eac03e...,time=0
+info|2020-11-25 04:56:27.457250|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=206,toView=207,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.274
+info|2020-11-25 04:56:27.471885|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=206,cur_changeCycle=1,to_view=207
+info|2020-11-25 04:56:28.407202|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:56:28.475474|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=11026515...,time=0
+info|2020-11-25 04:56:28.475726|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=207,toView=208,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.22
+info|2020-11-25 04:56:28.478928|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=207,cur_changeCycle=1,to_view=208
+info|2020-11-25 04:56:29.482269|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=84225796...,time=0
+info|2020-11-25 04:56:29.482556|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=208,toView=209,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.245
+info|2020-11-25 04:56:29.487514|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=208,cur_changeCycle=1,to_view=209
+info|2020-11-25 04:56:30.488765|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=e765c3cd...
+info|2020-11-25 04:56:30.497375|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=209,toView=210,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.262
+info|2020-11-25 04:56:30.498961|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=209,cur_changeCycle=1,to_view=210
+info|2020-11-25 04:56:31.499023|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=45db05d7...,time=0
+info|2020-11-25 04:56:31.499404|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=210,toView=211,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.345
+info|2020-11-25 04:56:31.503312|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=210,cur_changeCycle=1,to_view=211
+info|2020-11-25 04:56:32.507132|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=66981505...,time=0
+info|2020-11-25 04:56:32.507433|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=211,toView=212,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:56:32.510423|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=211,cur_changeCycle=1,to_view=212
+info|2020-11-25 04:56:33.512824|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=5b74330f...,time=0
+info|2020-11-25 04:56:33.513165|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=212,toView=213,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.3
+info|2020-11-25 04:56:33.518656|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=212,cur_changeCycle=1,to_view=213
+info|2020-11-25 04:56:34.520614|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=c1669dac...
+info|2020-11-25 04:56:34.528399|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=213,toView=214,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:56:34.530139|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=213,cur_changeCycle=1,to_view=214
+info|2020-11-25 04:56:35.532317|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=073b8fe5...,time=0
+info|2020-11-25 04:56:35.533858|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=214,toView=215,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=1.51
+info|2020-11-25 04:56:35.538322|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=214,cur_changeCycle=1,to_view=215
+info|2020-11-25 04:56:36.543960|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=00e92b54...,time=0
+info|2020-11-25 04:56:36.544186|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=215,toView=216,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.198
+info|2020-11-25 04:56:36.545998|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=215,cur_changeCycle=1,to_view=216
+info|2020-11-25 04:56:37.552862|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=2af0b29a...,time=0
+info|2020-11-25 04:56:37.553150|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=216,toView=217,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.202
+info|2020-11-25 04:56:37.560150|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=216,cur_changeCycle=1,to_view=217
+info|2020-11-25 04:56:38.408053|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:56:38.560492|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=519887ee...
+info|2020-11-25 04:56:38.570204|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=217,toView=218,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.24
+info|2020-11-25 04:56:38.574137|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=217,cur_changeCycle=1,to_view=218
+info|2020-11-25 04:56:38.605924|[NETWORK][Session]Received topic: [3	_block_notify_1] from 5ae2db1c257ad0d1f68828d95b30668d270f7da75bd4d0c1aee9d5ada6da0fd0eb53b893d1c8a518e4884ea58fabfa5ea1c62f120045f1e512aa93b7df7a08f6
+info|2020-11-25 04:56:38.630722|[NETWORK][Session]Received topic: [3	_block_notify_1] from 2fba64b0e957aa63f4fe34a6e01bda1e7c3cde666f7675b1985bb6c6f478a76b839242c0b4c0827c30e43b3d1e946c863eb58a7dc8e4eae3e3dd439a78bba140
+info|2020-11-25 04:56:39.570872|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=0852d4f7...,time=0
+info|2020-11-25 04:56:39.571101|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=218,toView=219,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.198
+info|2020-11-25 04:56:39.579531|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=218,cur_changeCycle=1,to_view=219
+info|2020-11-25 04:56:40.586307|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=3a2314e9...,time=0
+info|2020-11-25 04:56:40.586550|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=219,toView=220,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.211
+info|2020-11-25 04:56:40.591536|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=219,cur_changeCycle=1,to_view=220
+info|2020-11-25 04:56:41.598185|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=b0059af9...,time=0
+info|2020-11-25 04:56:41.598505|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=220,toView=221,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.284
+info|2020-11-25 04:56:41.602969|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=220,cur_changeCycle=1,to_view=221
+info|2020-11-25 04:56:42.603226|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=4cc7026d...
+info|2020-11-25 04:56:42.611890|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=221,toView=222,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.298
+info|2020-11-25 04:56:42.613415|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=221,cur_changeCycle=1,to_view=222
+info|2020-11-25 04:56:43.612437|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=92d5b060...,time=0
+info|2020-11-25 04:56:43.612816|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=222,toView=223,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.341
+info|2020-11-25 04:56:43.618164|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=222,cur_changeCycle=1,to_view=223
+info|2020-11-25 04:56:44.621279|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=075e6ab2...,time=0
+info|2020-11-25 04:56:44.621561|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=223,toView=224,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.25
+info|2020-11-25 04:56:44.624896|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=223,cur_changeCycle=1,to_view=224
+info|2020-11-25 04:56:45.624831|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=6fac2a41...,time=0
+info|2020-11-25 04:56:45.625142|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=224,toView=225,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.268
+info|2020-11-25 04:56:45.633231|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=224,cur_changeCycle=1,to_view=225
+info|2020-11-25 04:56:46.635504|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=e50c1732...
+info|2020-11-25 04:56:46.646756|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=225,toView=226,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.299
+info|2020-11-25 04:56:46.648892|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=225,cur_changeCycle=1,to_view=226
+info|2020-11-25 04:56:47.645189|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=0a38ecf6...,time=0
+info|2020-11-25 04:56:47.645448|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=226,toView=227,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.223
+info|2020-11-25 04:56:47.651754|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=226,cur_changeCycle=1,to_view=227
+info|2020-11-25 04:56:48.408147|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:56:48.652468|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=4943157a...,time=0
+info|2020-11-25 04:56:48.652728|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=227,toView=228,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.226
+info|2020-11-25 04:56:48.655415|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=227,cur_changeCycle=1,to_view=228
+info|2020-11-25 04:56:49.658774|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=01705295...,time=0
+info|2020-11-25 04:56:49.659109|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=228,toView=229,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.301
+info|2020-11-25 04:56:49.662678|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=228,cur_changeCycle=1,to_view=229
+info|2020-11-25 04:56:50.663088|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=8449ccea...
+info|2020-11-25 04:56:50.671738|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=229,toView=230,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.291
+info|2020-11-25 04:56:50.673174|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=229,cur_changeCycle=1,to_view=230
+info|2020-11-25 04:56:51.686944|[g:1][CONSENSUS][PBFT]Trigger fast-viewchange,view=230,toView=230,minView=231,INFO=,reqNum=159,curNum=159,GenIdx=1,Cview=231,view=230,fromIdx=1,fromNode=2fba64b0...,fromIp=127.0.0.1:30300,hash=8a804b61...,nodeIdx=0,myNode=097c5791...
+info|2020-11-25 04:56:51.687616|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=230,cur_changeCycle=2,to_view=231
+info|2020-11-25 04:56:51.688097|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=231,toView=231,nodeIdx=0,changeCycle=2,myNode=097c5791...,timecost=1.137
+info|2020-11-25 04:56:52.686271|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=67705b41...,time=0
+info|2020-11-25 04:56:52.686637|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=231,toView=232,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.326
+info|2020-11-25 04:56:52.687425|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=231,cur_changeCycle=1,to_view=232
+info|2020-11-25 04:56:53.691090|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=cb0e8054...,time=0
+info|2020-11-25 04:56:53.691425|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=232,toView=233,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.297
+info|2020-11-25 04:56:53.697396|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=232,cur_changeCycle=1,to_view=233
+info|2020-11-25 04:56:54.699149|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=48119aa5...
+info|2020-11-25 04:56:54.706197|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=233,toView=234,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.414
+info|2020-11-25 04:56:54.709964|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=233,cur_changeCycle=1,to_view=234
+info|2020-11-25 04:56:55.709493|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=54943c5c...,time=0
+info|2020-11-25 04:56:55.709835|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=234,toView=235,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.303
+info|2020-11-25 04:56:55.716201|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=234,cur_changeCycle=1,to_view=235
+info|2020-11-25 04:56:56.720926|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=422d8092...,time=0
+info|2020-11-25 04:56:56.721294|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=235,toView=236,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.31
+info|2020-11-25 04:56:56.726298|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=235,cur_changeCycle=1,to_view=236
+info|2020-11-25 04:56:57.727450|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=967effdf...,time=0
+info|2020-11-25 04:56:57.727770|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=236,toView=237,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.287
+info|2020-11-25 04:56:57.732628|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=236,cur_changeCycle=1,to_view=237
+info|2020-11-25 04:56:58.408244|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:56:58.733284|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=dfa5d269...
+info|2020-11-25 04:56:58.742895|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=237,toView=238,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.267
+info|2020-11-25 04:56:58.744497|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=237,cur_changeCycle=1,to_view=238
+info|2020-11-25 04:56:59.744010|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=3fecc71d...,time=0
+info|2020-11-25 04:56:59.744304|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=238,toView=239,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:56:59.749520|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=238,cur_changeCycle=1,to_view=239
+info|2020-11-25 04:57:00.752610|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=65d6b8a5...,time=0
+info|2020-11-25 04:57:00.752979|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=239,toView=240,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.338
+info|2020-11-25 04:57:00.757049|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=239,cur_changeCycle=1,to_view=240
+info|2020-11-25 04:57:01.762728|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=320cfcc1...,time=0
+info|2020-11-25 04:57:01.763043|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=240,toView=241,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.283
+info|2020-11-25 04:57:01.765373|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=240,cur_changeCycle=1,to_view=241
+info|2020-11-25 04:57:02.767124|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=56ec46c6...
+info|2020-11-25 04:57:02.776816|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=241,toView=242,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.433
+info|2020-11-25 04:57:02.778432|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=241,cur_changeCycle=1,to_view=242
+info|2020-11-25 04:57:03.779790|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=f671bfbb...,time=0
+info|2020-11-25 04:57:03.780161|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=242,toView=243,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.319
+info|2020-11-25 04:57:03.785140|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=242,cur_changeCycle=1,to_view=243
+info|2020-11-25 04:57:04.789893|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=dc4f5b18...,time=0
+info|2020-11-25 04:57:04.790213|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=243,toView=244,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.286
+info|2020-11-25 04:57:04.792745|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=243,cur_changeCycle=1,to_view=244
+info|2020-11-25 04:57:05.799643|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=2635096f...,time=0
+info|2020-11-25 04:57:05.799926|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=244,toView=245,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.249
+info|2020-11-25 04:57:05.800567|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=244,cur_changeCycle=1,to_view=245
+info|2020-11-25 04:57:06.800454|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=01cc1645...
+info|2020-11-25 04:57:06.810044|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=245,toView=246,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.265
+info|2020-11-25 04:57:06.811217|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=245,cur_changeCycle=1,to_view=246
+info|2020-11-25 04:57:07.810540|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=940aa42a...,time=0
+info|2020-11-25 04:57:07.810787|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=246,toView=247,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.212
+info|2020-11-25 04:57:07.815529|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=246,cur_changeCycle=1,to_view=247
+info|2020-11-25 04:57:08.408326|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:57:08.818609|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=84a5f7c9...,time=0
+info|2020-11-25 04:57:08.818900|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=247,toView=248,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:57:08.821975|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=247,cur_changeCycle=1,to_view=248
+info|2020-11-25 04:57:09.823680|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=3db1727c...,time=0
+info|2020-11-25 04:57:09.823999|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=248,toView=249,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:57:09.829150|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=248,cur_changeCycle=1,to_view=249
+info|2020-11-25 04:57:10.829943|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=0dcb95ed...
+info|2020-11-25 04:57:10.840018|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=249,toView=250,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.238
+info|2020-11-25 04:57:10.842035|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=249,cur_changeCycle=1,to_view=250
+info|2020-11-25 04:57:11.845961|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=8ab16da7...,time=0
+info|2020-11-25 04:57:11.846253|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=250,toView=251,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.243
+info|2020-11-25 04:57:11.851097|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=250,cur_changeCycle=1,to_view=251
+info|2020-11-25 04:57:12.855579|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=e5ec6154...,time=0
+info|2020-11-25 04:57:12.855855|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=251,toView=252,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.239
+info|2020-11-25 04:57:12.857359|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=251,cur_changeCycle=1,to_view=252
+info|2020-11-25 04:57:13.860491|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=4d0e8f1d...,time=0
+info|2020-11-25 04:57:13.860891|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=252,toView=253,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.36
+info|2020-11-25 04:57:13.865862|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=252,cur_changeCycle=1,to_view=253
+info|2020-11-25 04:57:14.866141|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=71e6ae1c...
+info|2020-11-25 04:57:14.873939|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=253,toView=254,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.305
+info|2020-11-25 04:57:14.875479|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=253,cur_changeCycle=1,to_view=254
+info|2020-11-25 04:57:15.878453|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=a1178a27...,time=0
+info|2020-11-25 04:57:15.878743|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=254,toView=255,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.251
+info|2020-11-25 04:57:15.883879|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=254,cur_changeCycle=1,to_view=255
+info|2020-11-25 04:57:16.888619|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=0bce2de0...,time=0
+info|2020-11-25 04:57:16.888912|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=255,toView=256,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.259
+info|2020-11-25 04:57:16.891121|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=255,cur_changeCycle=1,to_view=256
+info|2020-11-25 04:57:17.894250|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=cb52071e...,time=0
+info|2020-11-25 04:57:17.894594|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=256,toView=257,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.298
+info|2020-11-25 04:57:17.901112|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=256,cur_changeCycle=1,to_view=257
+info|2020-11-25 04:57:18.408483|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:57:18.901724|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=846bbd25...
+info|2020-11-25 04:57:18.913101|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=257,toView=258,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.28
+info|2020-11-25 04:57:18.914621|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=257,cur_changeCycle=1,to_view=258
+info|2020-11-25 04:57:19.913635|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=bfc43a5e...,time=0
+info|2020-11-25 04:57:19.913912|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=258,toView=259,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.238
+info|2020-11-25 04:57:19.918177|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=258,cur_changeCycle=1,to_view=259
+info|2020-11-25 04:57:20.923542|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=c7444518...,time=0
+info|2020-11-25 04:57:20.923838|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=259,toView=260,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:57:20.926939|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=259,cur_changeCycle=1,to_view=260
+info|2020-11-25 04:57:21.929938|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=4d481f98...,time=0
+info|2020-11-25 04:57:21.930256|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=260,toView=261,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.285
+info|2020-11-25 04:57:21.935122|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=260,cur_changeCycle=1,to_view=261
+info|2020-11-25 04:57:22.935295|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=d67f235f...
+info|2020-11-25 04:57:22.948381|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=261,toView=262,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.768
+info|2020-11-25 04:57:22.949446|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=261,cur_changeCycle=1,to_view=262
+info|2020-11-25 04:57:23.949234|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=f3f13041...,time=0
+info|2020-11-25 04:57:23.949604|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=262,toView=263,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.333
+info|2020-11-25 04:57:23.954760|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=262,cur_changeCycle=1,to_view=263
+info|2020-11-25 04:57:24.958831|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=8fec7d36...,time=0
+info|2020-11-25 04:57:24.959209|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=263,toView=264,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.343
+info|2020-11-25 04:57:24.963824|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=263,cur_changeCycle=1,to_view=264
+info|2020-11-25 04:57:25.965671|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=db5bb6ab...,time=0
+info|2020-11-25 04:57:25.966014|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=264,toView=265,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.309
+info|2020-11-25 04:57:25.970910|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=264,cur_changeCycle=1,to_view=265
+info|2020-11-25 04:57:26.972427|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=58bff2c9...
+info|2020-11-25 04:57:26.980421|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=265,toView=266,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.256
+info|2020-11-25 04:57:26.981783|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=265,cur_changeCycle=1,to_view=266
+info|2020-11-25 04:57:27.982455|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=f7bb4fc6...,time=0
+info|2020-11-25 04:57:27.982765|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=266,toView=267,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.264
+info|2020-11-25 04:57:27.987821|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=266,cur_changeCycle=1,to_view=267
+info|2020-11-25 04:57:28.408743|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:57:28.990380|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=639e46c8...,time=0
+info|2020-11-25 04:57:28.990682|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=267,toView=268,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.27
+info|2020-11-25 04:57:28.994274|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=267,cur_changeCycle=1,to_view=268
+info|2020-11-25 04:57:29.996823|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=19cb8628...,time=0
+info|2020-11-25 04:57:29.997119|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=268,toView=269,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.257
+info|2020-11-25 04:57:30.005389|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=268,cur_changeCycle=1,to_view=269
+info|2020-11-25 04:57:31.009598|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=037db8bd...
+info|2020-11-25 04:57:31.018794|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=269,toView=270,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.321
+info|2020-11-25 04:57:31.020735|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=269,cur_changeCycle=1,to_view=270
+info|2020-11-25 04:57:32.021811|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=4d1138e0...,time=0
+info|2020-11-25 04:57:32.026248|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=270,toView=271,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=4.399
+info|2020-11-25 04:57:32.026945|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=270,cur_changeCycle=1,to_view=271
+info|2020-11-25 04:57:33.032553|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=cc4c1b93...,time=0
+info|2020-11-25 04:57:33.032842|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=271,toView=272,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.255
+info|2020-11-25 04:57:33.038673|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=271,cur_changeCycle=1,to_view=272
+info|2020-11-25 04:57:34.042935|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=92b113ed...,time=0
+info|2020-11-25 04:57:34.043212|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=272,toView=273,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.239
+info|2020-11-25 04:57:34.053214|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=272,cur_changeCycle=1,to_view=273
+info|2020-11-25 04:57:35.053479|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=ee7e709f...
+info|2020-11-25 04:57:35.079443|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=273,toView=274,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=2.971
+info|2020-11-25 04:57:35.081794|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=273,cur_changeCycle=1,to_view=274
+info|2020-11-25 04:57:36.077880|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=fb57d721...,time=0
+info|2020-11-25 04:57:36.078194|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=274,toView=275,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:57:36.083928|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=274,cur_changeCycle=1,to_view=275
+info|2020-11-25 04:57:37.088998|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=179fda69...,time=1
+info|2020-11-25 04:57:37.089331|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=275,toView=276,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.304
+info|2020-11-25 04:57:37.092643|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=275,cur_changeCycle=1,to_view=276
+info|2020-11-25 04:57:38.092724|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=d454ec37...,time=0
+info|2020-11-25 04:57:38.093053|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=276,toView=277,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.267
+info|2020-11-25 04:57:38.098640|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=276,cur_changeCycle=1,to_view=277
+info|2020-11-25 04:57:38.408830|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:57:39.100278|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=e679bc31...
+info|2020-11-25 04:57:39.116263|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=277,toView=278,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.25
+info|2020-11-25 04:57:39.117635|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=277,cur_changeCycle=1,to_view=278
+info|2020-11-25 04:57:40.116762|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=1,hash=3e1a3713...,time=0
+info|2020-11-25 04:57:40.117128|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=278,toView=279,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.266
+info|2020-11-25 04:57:40.123339|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=278,cur_changeCycle=1,to_view=279
+info|2020-11-25 04:57:41.126417|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=2,hash=9dd0c448...,time=0
+info|2020-11-25 04:57:41.126715|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=279,toView=280,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.26
+info|2020-11-25 04:57:41.130055|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=279,cur_changeCycle=1,to_view=280
+info|2020-11-25 04:57:42.138298|[g:1][CONSENSUS]addRawPrepare,height=160,reqIdx=3,hash=5da6b86a...,time=0
+info|2020-11-25 04:57:42.138576|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=280,toView=281,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.243
+info|2020-11-25 04:57:42.142424|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=280,cur_changeCycle=1,to_view=281
+info|2020-11-25 04:57:43.142755|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=160,tx=0,nodeIdx=0,hash=5f7f9e52...
+info|2020-11-25 04:57:43.151266|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=281,toView=282,nodeIdx=0,changeCycle=1,myNode=097c5791...,timecost=0.314
+info|2020-11-25 04:57:43.152866|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=281,cur_changeCycle=1,to_view=282
+info|2020-11-25 04:57:44.063956|[g:1][CONSENSUS][PartiallyPBFTReqCache]addPartiallyRawPrepare,height=160,reqIdx=1,hash=8f63086d...
+info|2020-11-25 04:57:44.064140|[g:1][CONSENSUS][PBFT]I am the next leader = 0, filter trans size = 1, total trans = 1
+info|2020-11-25 04:57:44.064199|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=160,parentHash=8a804b61976c3e7d8baa215018762d49f4041cb17daf8917f877cda1e9295ed4,parentNum=159,parentStateRoot=0000000000000000000000000000000000000000000000000000000000000000
+info|2020-11-25 04:57:44.082320|[g:1][CONSENSUS][PBFT]execBlock,blkNum=160,reqIdx=1,hash=c713ae67...,nodeIdx=0,myNode=097c5791...,decodeCost=0,checkCost=0,notifyCost=0,noteSealingCost=0,currentCycle=1,verifyAndSetSenderCost=0,execCost=18,execPerTx=18,totalCost=18
+info|2020-11-25 04:57:44.087356|[g:1][CONSENSUS][PBFT]handlePrepareMsg Succ,Timecost=23.305,INFO=handlePartiallyPrepare,reqIdx=1,view=282,reqNum=160,curNum=159,consNum=160,hash=8f63086d...,nodeIdx=0,myNode=097c5791...,curChangeCycle=1
+info|2020-11-25 04:57:44.094214|[g:1][CONSENSUS][PBFT]handleSignMsg Succ,Timecost=0.274,INFO=handleSignMsg,num=160,curNum=159,GenIdx=3,Sview=282,view=282,fromIdx=3,fromNode=e3236923...,fromIp=127.0.0.1:30303,hash=c713ae67...,nodeIdx=0,myNode=097c5791...
+info|2020-11-25 04:57:44.094495|[g:1][CONSENSUS][PBFT]checkAndCommit: backup/updateCommittedPrepare,reqNum=160,hash=8f63086d...,nodeIdx=0,myNode=097c5791...
+info|2020-11-25 04:57:44.094780|[g:1][CONSENSUS][PBFT]handleSignMsg Succ,Timecost=0.552,INFO=handleSignMsg,num=160,curNum=159,GenIdx=2,Sview=282,view=282,fromIdx=2,fromNode=5ae2db1c...,fromIp=127.0.0.1:30301,hash=c713ae67...,nodeIdx=0,myNode=097c5791...
+info|2020-11-25 04:57:44.095060|[g:1][CONSENSUS][PBFT]handleCommitMsg Succ,INFO=handleCommitMsg,reqNum=160,curNum=159,GenIdx=3,Cview=282,view=282,fromIdx=3,fromNode=e3236923...,fromIp=127.0.0.1:30303,hash=c713ae67...,nodeIdx=0,myNode=097c5791...,Timecost=0.269
+info|2020-11-25 04:57:44.095332|[g:1][CONSENSUS][PBFT]checkAndSave: CommitReq enough,prepareHeight=160,commitSize=3,hash=c713ae67...,nodeIdx=0,myNode=097c5791...
+info|2020-11-25 04:57:44.104113|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 7 num: 160
+info|2020-11-25 04:57:44.106381|[g:1][STORAGE]Start commit block: 160 to backend storage
+info|2020-11-25 04:57:44.107532|[g:1][STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 160 to backend storage finished, current cached block: 160
+Flush elapsed time: 0.0012s
+---------------------------------------------------------------------
+
+info|2020-11-25 04:57:44.109931|[g:1][STORAGE]Submited block task: 160, current syncd block: 160
+info|2020-11-25 04:57:44.110207|[g:1]Push block notify: 1-160
+info|2020-11-25 04:57:44.118754|[g:1][CONSENSUS][PBFT]CommitBlock Succ,prepareHeight=160,reqIdx=1,hash=c713ae67...,nodeIdx=0,myNode=097c5791...,genSigTimeCost=0,commitBlockTimeCost=20,dropTxsTimeCost=3,noteSealingTimeCost=0,totalTimeCost=23
+info|2020-11-25 04:57:44.118795|[g:1][CONSENSUS][PBFT]handleCommitMsg Succ,INFO=handleCommitMsg,reqNum=160,curNum=159,GenIdx=2,Cview=282,view=282,fromIdx=2,fromNode=5ae2db1c...,fromIp=127.0.0.1:30301,hash=c713ae67...,nodeIdx=0,myNode=097c5791...,Timecost=23.728
+info|2020-11-25 04:57:44.118998|[g:1][CONSENSUS][SEALER]increase maxNoTimeoutTx,maxNoTimeoutTx=1
+info|2020-11-25 04:57:44.119010|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=160,sealerIdx=1,hash=c713ae67...,next=161,tx=1,nodeIdx=1
+info|2020-11-25 04:57:44.483883|[g:1] [SYNC][id:097c5791...][Download][Request]Receive block request,peer=07351151...,from=33,to=64
+info|2020-11-25 04:57:44.488811|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=33,peer=07351151...,timeCost=4
+info|2020-11-25 04:57:44.489654|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1730,number=34,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.505133|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=35,peer=07351151...,timeCost=16
+info|2020-11-25 04:57:44.507301|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1631,number=36,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.510089|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1631,number=37,peer=07351151...,timeCost=3
+info|2020-11-25 04:57:44.512042|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=38,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.513708|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1666,number=39,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.515216|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=40,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.517572|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1631,number=41,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.518955|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=42,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.520030|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1666,number=43,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.527393|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=44,peer=07351151...,timeCost=7
+info|2020-11-25 04:57:44.529055|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1860,number=45,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.531327|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=46,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.532719|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=47,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.533725|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=48,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.535246|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=18405,number=49,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.536420|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1666,number=50,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.541845|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=51,peer=07351151...,timeCost=5
+info|2020-11-25 04:57:44.542539|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=52,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.546596|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1860,number=53,peer=07351151...,timeCost=4
+info|2020-11-25 04:57:44.546913|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1631,number=54,peer=07351151...,timeCost=0
+info|2020-11-25 04:57:44.549547|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=55,peer=07351151...,timeCost=3
+info|2020-11-25 04:57:44.550222|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=56,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.550884|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1666,number=57,peer=07351151...,timeCost=0
+info|2020-11-25 04:57:44.551771|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1631,number=58,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.552615|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=59,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.552867|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1730,number=60,peer=07351151...,timeCost=0
+info|2020-11-25 04:57:44.556577|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1631,number=61,peer=07351151...,timeCost=2
+info|2020-11-25 04:57:44.556825|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=62,peer=07351151...,timeCost=0
+info|2020-11-25 04:57:44.557609|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=63,peer=07351151...,timeCost=1
+info|2020-11-25 04:57:44.557848|[g:1][SYNC][id:097c5791...][Download][Request][BlockSync]Batch blocks for sending,blockSize=1632,number=64,peer=07351151...,timeCost=0
+info|2020-11-25 04:57:44.567241|[g:1][g:1] [SYNC][id:07351151...][Download][Request][BlockSync]Send block packet,peer=07351151...,blocks=32,bytes(V)=69880
+info|2020-11-25 04:57:46.208683|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=29220f49...,time=0
+info|2020-11-25 04:57:46.209005|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=0,toView=1,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.284
+info|2020-11-25 04:57:46.218638|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=0,cur_changeCycle=1,to_view=1
+info|2020-11-25 04:57:47.219162|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=7231acfa...
+info|2020-11-25 04:57:47.239923|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=1,toView=2,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.252
+info|2020-11-25 04:57:47.247022|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=1,cur_changeCycle=1,to_view=2
+info|2020-11-25 04:57:48.240376|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=7fe6976d...,time=0
+info|2020-11-25 04:57:48.240656|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=2,toView=3,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.248
+info|2020-11-25 04:57:48.248717|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=2,cur_changeCycle=1,to_view=3
+info|2020-11-25 04:57:48.408903|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:57:49.254710|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=5bdca13e...,time=0
+info|2020-11-25 04:57:49.255028|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=3,toView=4,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.287
+info|2020-11-25 04:57:49.260360|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=3,cur_changeCycle=1,to_view=4
+info|2020-11-25 04:57:50.270128|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=483449ed...,time=0
+info|2020-11-25 04:57:50.270582|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=4,toView=5,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.409
+info|2020-11-25 04:57:50.281944|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=4,cur_changeCycle=1,to_view=5
+info|2020-11-25 04:57:51.284655|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=1c62a80c...,time=0
+info|2020-11-25 04:57:51.284964|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=5,toView=6,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.235
+info|2020-11-25 04:57:51.292970|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=5,cur_changeCycle=1,to_view=6
+info|2020-11-25 04:57:52.294208|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=368edfbb...
+info|2020-11-25 04:57:52.308454|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=6,toView=7,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.256
+info|2020-11-25 04:57:52.310349|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=6,cur_changeCycle=1,to_view=7
+info|2020-11-25 04:57:53.309282|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=88456dfc...,time=0
+info|2020-11-25 04:57:53.309607|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=7,toView=8,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.283
+info|2020-11-25 04:57:53.317762|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=7,cur_changeCycle=1,to_view=8
+info|2020-11-25 04:57:54.323554|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=33f46a26...,time=0
+info|2020-11-25 04:57:54.323864|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=8,toView=9,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.28
+info|2020-11-25 04:57:54.328030|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=8,cur_changeCycle=1,to_view=9
+info|2020-11-25 04:57:55.334903|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=109df183...,time=0
+info|2020-11-25 04:57:55.335195|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=9,toView=10,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.257
+info|2020-11-25 04:57:55.340934|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=9,cur_changeCycle=1,to_view=10
+info|2020-11-25 04:57:56.345551|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=49e95c6d...,time=0
+info|2020-11-25 04:57:56.345899|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=10,toView=11,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.312
+info|2020-11-25 04:57:56.353735|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=10,cur_changeCycle=1,to_view=11
+info|2020-11-25 04:57:57.354169|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=9b8c6116...
+info|2020-11-25 04:57:57.366223|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=11,toView=12,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.298
+info|2020-11-25 04:57:57.367991|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=11,cur_changeCycle=1,to_view=12
+info|2020-11-25 04:57:58.368944|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=cce6351b...,time=0
+info|2020-11-25 04:57:58.369474|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=12,toView=13,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.481
+info|2020-11-25 04:57:58.382191|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=12,cur_changeCycle=1,to_view=13
+info|2020-11-25 04:57:58.408986|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:57:59.385315|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=607e888a...,time=0
+info|2020-11-25 04:57:59.385657|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=13,toView=14,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.312
+info|2020-11-25 04:57:59.396667|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=13,cur_changeCycle=1,to_view=14
+info|2020-11-25 04:58:00.399799|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=29e08f11...,time=0
+info|2020-11-25 04:58:00.403866|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=14,toView=15,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=4.043
+info|2020-11-25 04:58:00.405662|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=14,cur_changeCycle=1,to_view=15
+info|2020-11-25 04:58:01.412417|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=47252336...,time=0
+info|2020-11-25 04:58:01.412806|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=15,toView=16,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.349
+info|2020-11-25 04:58:01.421122|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=15,cur_changeCycle=1,to_view=16
+info|2020-11-25 04:58:02.422837|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=902421ad...
+info|2020-11-25 04:58:02.435089|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=16,toView=17,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.339
+info|2020-11-25 04:58:02.437195|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=16,cur_changeCycle=1,to_view=17
+info|2020-11-25 04:58:03.437782|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=f1b5ada7...,time=0
+info|2020-11-25 04:58:03.438132|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17,toView=18,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.287
+info|2020-11-25 04:58:03.444809|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17,cur_changeCycle=1,to_view=18
+info|2020-11-25 04:58:04.454708|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=e9d46899...,time=0
+info|2020-11-25 04:58:04.455022|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=18,toView=19,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:58:04.458031|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=18,cur_changeCycle=1,to_view=19
+info|2020-11-25 04:58:05.467256|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=e03a6e6d...,time=0
+info|2020-11-25 04:58:05.467606|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=19,toView=20,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.317
+info|2020-11-25 04:58:05.474008|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=19,cur_changeCycle=1,to_view=20
+info|2020-11-25 04:58:06.480122|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=37062357...,time=0
+info|2020-11-25 04:58:06.480399|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=20,toView=21,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.244
+info|2020-11-25 04:58:06.483095|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=20,cur_changeCycle=1,to_view=21
+info|2020-11-25 04:58:07.486271|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=cc6e3895...
+info|2020-11-25 04:58:07.498912|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=21,toView=22,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.327
+info|2020-11-25 04:58:07.501275|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=21,cur_changeCycle=1,to_view=22
+info|2020-11-25 04:58:08.409158|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:58:08.500138|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=97c11ff6...,time=0
+info|2020-11-25 04:58:08.500454|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=22,toView=23,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.276
+info|2020-11-25 04:58:08.509960|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=22,cur_changeCycle=1,to_view=23
+info|2020-11-25 04:58:09.515169|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=ba612aea...,time=0
+info|2020-11-25 04:58:09.515467|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=23,toView=24,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.268
+info|2020-11-25 04:58:09.522478|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=23,cur_changeCycle=1,to_view=24
+info|2020-11-25 04:58:10.527234|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=32465cb5...,time=0
+info|2020-11-25 04:58:10.527540|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=24,toView=25,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:58:10.532081|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=24,cur_changeCycle=1,to_view=25
+info|2020-11-25 04:58:11.535726|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=17849439...,time=0
+info|2020-11-25 04:58:11.536126|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=25,toView=26,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.359
+info|2020-11-25 04:58:11.544987|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=25,cur_changeCycle=1,to_view=26
+info|2020-11-25 04:58:12.545580|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=a9f02fd5...
+info|2020-11-25 04:58:12.558931|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=26,toView=27,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.277
+info|2020-11-25 04:58:12.560954|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=26,cur_changeCycle=1,to_view=27
+info|2020-11-25 04:58:13.560888|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=a878ef84...,time=0
+info|2020-11-25 04:58:13.561245|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=27,toView=28,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.316
+info|2020-11-25 04:58:13.571518|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=27,cur_changeCycle=1,to_view=28
+info|2020-11-25 04:58:14.577406|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=b44067b9...,time=0
+info|2020-11-25 04:58:14.577783|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=28,toView=29,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.33
+info|2020-11-25 04:58:14.585027|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=28,cur_changeCycle=1,to_view=29
+info|2020-11-25 04:58:15.588504|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=c0d5d5ef...,time=0
+info|2020-11-25 04:58:15.588853|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=29,toView=30,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.314
+info|2020-11-25 04:58:15.595553|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=29,cur_changeCycle=1,to_view=30
+info|2020-11-25 04:58:16.601508|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=85f5d326...,time=0
+info|2020-11-25 04:58:16.601968|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=30,toView=31,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.407
+info|2020-11-25 04:58:16.616593|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=30,cur_changeCycle=1,to_view=31
+info|2020-11-25 04:58:17.619131|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=0c754afe...
+info|2020-11-25 04:58:17.636219|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=31,toView=32,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.332
+info|2020-11-25 04:58:17.638324|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=31,cur_changeCycle=1,to_view=32
+info|2020-11-25 04:58:18.409421|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:58:18.641066|[g:1][CONSENSUS][PBFT]Trigger fast-viewchange,view=32,toView=32,minView=33,INFO=,reqNum=160,curNum=160,GenIdx=4,Cview=33,view=32,fromIdx=4,fromNode=e3236923...,fromIp=127.0.0.1:30303,hash=c713ae67...,nodeIdx=1,myNode=097c5791...
+info|2020-11-25 04:58:18.641339|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=32,toView=33,nodeIdx=1,changeCycle=2,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:58:18.646144|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=32,cur_changeCycle=2,to_view=33
+info|2020-11-25 04:58:19.653496|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=358316e3...,time=0
+info|2020-11-25 04:58:19.653834|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=33,toView=34,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.259
+info|2020-11-25 04:58:19.654948|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=33,cur_changeCycle=1,to_view=34
+info|2020-11-25 04:58:20.661866|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=28458314...,time=0
+info|2020-11-25 04:58:20.662146|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=34,toView=35,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.247
+info|2020-11-25 04:58:20.670523|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=34,cur_changeCycle=1,to_view=35
+info|2020-11-25 04:58:21.670134|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=42350add...,time=0
+info|2020-11-25 04:58:21.670525|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=35,toView=36,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.346
+info|2020-11-25 04:58:21.680465|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=35,cur_changeCycle=1,to_view=36
+info|2020-11-25 04:58:22.680739|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=0085a476...
+info|2020-11-25 04:58:22.695716|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=36,toView=37,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.302
+info|2020-11-25 04:58:22.697994|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=36,cur_changeCycle=1,to_view=37
+info|2020-11-25 04:58:23.698212|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=daadd596...,time=0
+info|2020-11-25 04:58:23.698570|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=37,toView=38,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.319
+info|2020-11-25 04:58:23.711770|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=37,cur_changeCycle=1,to_view=38
+info|2020-11-25 04:58:24.716725|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=3ea0f2fe...,time=0
+info|2020-11-25 04:58:24.716985|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=38,toView=39,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.227
+info|2020-11-25 04:58:24.721996|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=38,cur_changeCycle=1,to_view=39
+info|2020-11-25 04:58:25.729042|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=5fc0d81b...,time=0
+info|2020-11-25 04:58:25.729348|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=39,toView=40,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.269
+info|2020-11-25 04:58:25.737258|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=39,cur_changeCycle=1,to_view=40
+info|2020-11-25 04:58:26.740909|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=c3aec34f...,time=0
+info|2020-11-25 04:58:26.741225|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40,toView=41,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.274
+info|2020-11-25 04:58:26.750213|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40,cur_changeCycle=1,to_view=41
+info|2020-11-25 04:58:27.751464|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=70ab7d7b...
+info|2020-11-25 04:58:27.764589|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=41,toView=42,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:58:27.766889|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=41,cur_changeCycle=1,to_view=42
+info|2020-11-25 04:58:28.409506|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:58:28.765851|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=9a43f152...,time=0
+info|2020-11-25 04:58:28.766170|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=42,toView=43,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.279
+info|2020-11-25 04:58:28.774652|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=42,cur_changeCycle=1,to_view=43
+info|2020-11-25 04:58:29.780104|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=d167f5e9...,time=0
+info|2020-11-25 04:58:29.780353|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=43,toView=44,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.219
+info|2020-11-25 04:58:29.784253|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=43,cur_changeCycle=1,to_view=44
+info|2020-11-25 04:58:30.790257|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=3e096059...,time=0
+info|2020-11-25 04:58:30.790582|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=44,toView=45,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.293
+info|2020-11-25 04:58:30.805753|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=44,cur_changeCycle=1,to_view=45
+info|2020-11-25 04:58:31.804613|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=f0577da8...,time=0
+info|2020-11-25 04:58:31.804917|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=45,toView=46,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.263
+info|2020-11-25 04:58:31.813796|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=45,cur_changeCycle=1,to_view=46
+info|2020-11-25 04:58:32.816386|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=16424239...
+info|2020-11-25 04:58:32.828928|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=46,toView=47,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.293
+info|2020-11-25 04:58:32.830906|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=46,cur_changeCycle=1,to_view=47
+info|2020-11-25 04:58:33.829177|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=a182142f...,time=0
+info|2020-11-25 04:58:33.829504|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=47,toView=48,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:58:33.838489|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=47,cur_changeCycle=1,to_view=48
+info|2020-11-25 04:58:34.842747|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=58e78d21...,time=0
+info|2020-11-25 04:58:34.843019|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=48,toView=49,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.241
+info|2020-11-25 04:58:34.849145|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=48,cur_changeCycle=1,to_view=49
+info|2020-11-25 04:58:35.853945|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=635eda9d...,time=0
+info|2020-11-25 04:58:35.854253|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=49,toView=50,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.268
+info|2020-11-25 04:58:35.858477|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=49,cur_changeCycle=1,to_view=50
+info|2020-11-25 04:58:36.863421|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=c3f35046...,time=0
+info|2020-11-25 04:58:36.863724|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=50,toView=51,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.263
+info|2020-11-25 04:58:36.872764|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=50,cur_changeCycle=1,to_view=51
+info|2020-11-25 04:58:37.873856|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=64494e8f...
+info|2020-11-25 04:58:37.890884|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=51,toView=52,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.742
+info|2020-11-25 04:58:37.893874|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=51,cur_changeCycle=1,to_view=52
+info|2020-11-25 04:58:38.409589|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:58:38.891253|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=8783e0d2...,time=0
+info|2020-11-25 04:58:38.891526|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=52,toView=53,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.237
+info|2020-11-25 04:58:38.898123|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=52,cur_changeCycle=1,to_view=53
+info|2020-11-25 04:58:39.907091|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=6c9375e8...,time=0
+info|2020-11-25 04:58:39.909670|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=53,toView=54,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=2.544
+info|2020-11-25 04:58:39.914550|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=53,cur_changeCycle=1,to_view=54
+info|2020-11-25 04:58:40.918555|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=14a04cc3...,time=0
+info|2020-11-25 04:58:40.918926|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=54,toView=55,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.333
+info|2020-11-25 04:58:40.927287|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=54,cur_changeCycle=1,to_view=55
+info|2020-11-25 04:58:41.929673|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=36854fa1...,time=0
+info|2020-11-25 04:58:41.930009|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=55,toView=56,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.291
+info|2020-11-25 04:58:41.939794|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=55,cur_changeCycle=1,to_view=56
+info|2020-11-25 04:58:42.940588|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=951286e6...
+info|2020-11-25 04:58:42.954673|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=56,toView=57,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.333
+info|2020-11-25 04:58:42.956847|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=56,cur_changeCycle=1,to_view=57
+info|2020-11-25 04:58:43.959506|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=1bccd36d...,time=0
+info|2020-11-25 04:58:43.959816|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=57,toView=58,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:58:43.972047|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=57,cur_changeCycle=1,to_view=58
+info|2020-11-25 04:58:44.975654|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=d202796a...,time=0
+info|2020-11-25 04:58:44.979291|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=58,toView=59,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=3.603
+info|2020-11-25 04:58:44.980334|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=58,cur_changeCycle=1,to_view=59
+info|2020-11-25 04:58:45.986433|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=a90bcb07...,time=0
+info|2020-11-25 04:58:45.986745|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=59,toView=60,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.279
+info|2020-11-25 04:58:45.993013|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=59,cur_changeCycle=1,to_view=60
+info|2020-11-25 04:58:46.996151|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=04a01d47...,time=0
+info|2020-11-25 04:58:47.000067|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=60,toView=61,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=3.881
+info|2020-11-25 04:58:47.001060|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=60,cur_changeCycle=1,to_view=61
+info|2020-11-25 04:58:48.001263|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=a8868381...
+info|2020-11-25 04:58:48.013164|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=61,toView=62,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.266
+info|2020-11-25 04:58:48.015014|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=61,cur_changeCycle=1,to_view=62
+info|2020-11-25 04:58:48.409671|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:58:49.015099|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=4c0f67b9...,time=0
+info|2020-11-25 04:58:49.015410|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=62,toView=63,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.272
+info|2020-11-25 04:58:49.021721|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=62,cur_changeCycle=1,to_view=63
+info|2020-11-25 04:58:50.028776|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=62471ed5...,time=0
+info|2020-11-25 04:58:50.029193|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=63,toView=64,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.318
+info|2020-11-25 04:58:50.034934|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=63,cur_changeCycle=1,to_view=64
+info|2020-11-25 04:58:51.042246|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=f93f5b2d...,time=0
+info|2020-11-25 04:58:51.042520|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=64,toView=65,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.243
+info|2020-11-25 04:58:51.043517|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=64,cur_changeCycle=1,to_view=65
+info|2020-11-25 04:58:52.050173|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=10bbf6a1...,time=0
+info|2020-11-25 04:58:52.050442|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=65,toView=66,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.234
+info|2020-11-25 04:58:52.056715|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=65,cur_changeCycle=1,to_view=66
+info|2020-11-25 04:58:53.058731|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=97143f96...
+info|2020-11-25 04:58:53.070606|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=66,toView=67,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.288
+info|2020-11-25 04:58:53.072488|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=66,cur_changeCycle=1,to_view=67
+info|2020-11-25 04:58:54.071306|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=bf8c8b06...,time=0
+info|2020-11-25 04:58:54.071660|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=67,toView=68,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.309
+info|2020-11-25 04:58:54.079871|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=67,cur_changeCycle=1,to_view=68
+info|2020-11-25 04:58:55.084831|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=49a1e68a...,time=0
+info|2020-11-25 04:58:55.085134|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=68,toView=69,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.269
+info|2020-11-25 04:58:55.089748|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=68,cur_changeCycle=1,to_view=69
+info|2020-11-25 04:58:56.097803|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=adf15729...,time=0
+info|2020-11-25 04:58:56.098149|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=69,toView=70,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.264
+info|2020-11-25 04:58:56.103850|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=69,cur_changeCycle=1,to_view=70
+info|2020-11-25 04:58:57.108503|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=518b563e...,time=0
+info|2020-11-25 04:58:57.108794|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=70,toView=71,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.251
+info|2020-11-25 04:58:57.117536|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=70,cur_changeCycle=1,to_view=71
+info|2020-11-25 04:58:58.118003|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=eaf7d144...
+info|2020-11-25 04:58:58.130443|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=71,toView=72,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.295
+info|2020-11-25 04:58:58.132405|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=71,cur_changeCycle=1,to_view=72
+info|2020-11-25 04:58:58.409753|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:58:59.131207|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=a38822a8...,time=0
+info|2020-11-25 04:58:59.131547|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=72,toView=73,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.305
+info|2020-11-25 04:58:59.138991|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=72,cur_changeCycle=1,to_view=73
+info|2020-11-25 04:59:00.145113|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=4c3d50ec...,time=0
+info|2020-11-25 04:59:00.145409|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=73,toView=74,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.281
+info|2020-11-25 04:59:00.150524|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=73,cur_changeCycle=1,to_view=74
+info|2020-11-25 04:59:01.154908|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=786f74c2...,time=0
+info|2020-11-25 04:59:01.155178|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=74,toView=75,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.236
+info|2020-11-25 04:59:01.162495|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=74,cur_changeCycle=1,to_view=75
+info|2020-11-25 04:59:02.169686|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=3fdc7a91...,time=0
+info|2020-11-25 04:59:02.170000|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=75,toView=76,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.265
+info|2020-11-25 04:59:02.175335|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=75,cur_changeCycle=1,to_view=76
+info|2020-11-25 04:59:03.178125|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=827db926...
+info|2020-11-25 04:59:03.189570|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=76,toView=77,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.241
+info|2020-11-25 04:59:03.191338|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=76,cur_changeCycle=1,to_view=77
+info|2020-11-25 04:59:04.191156|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=0a32b5f2...,time=0
+info|2020-11-25 04:59:04.191511|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=77,toView=78,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.311
+info|2020-11-25 04:59:04.200390|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=77,cur_changeCycle=1,to_view=78
+info|2020-11-25 04:59:05.207059|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=e022596c...,time=0
+info|2020-11-25 04:59:05.207393|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=78,toView=79,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.3
+info|2020-11-25 04:59:05.215130|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=78,cur_changeCycle=1,to_view=79
+info|2020-11-25 04:59:06.219174|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=12f54196...,time=0
+info|2020-11-25 04:59:06.219437|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=79,toView=80,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.232
+info|2020-11-25 04:59:06.223977|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=79,cur_changeCycle=1,to_view=80
+info|2020-11-25 04:59:07.228294|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=6d0d0b85...,time=0
+info|2020-11-25 04:59:07.228581|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=80,toView=81,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.25
+info|2020-11-25 04:59:07.237064|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=80,cur_changeCycle=1,to_view=81
+info|2020-11-25 04:59:08.237852|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=50c7aeab...
+info|2020-11-25 04:59:08.250461|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=81,toView=82,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.316
+info|2020-11-25 04:59:08.252487|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=81,cur_changeCycle=1,to_view=82
+info|2020-11-25 04:59:08.409857|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:59:09.251043|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=f26ff483...,time=0
+info|2020-11-25 04:59:09.251399|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=82,toView=83,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.314
+info|2020-11-25 04:59:09.261239|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=82,cur_changeCycle=1,to_view=83
+info|2020-11-25 04:59:10.270485|[g:1][CONSENSUS][PBFT]Trigger fast-viewchange,view=83,toView=83,minView=84,INFO=,reqNum=160,curNum=160,GenIdx=2,Cview=84,view=83,fromIdx=2,fromNode=2fba64b0...,fromIp=127.0.0.1:30300,hash=c713ae67...,nodeIdx=1,myNode=097c5791...
+info|2020-11-25 04:59:10.273491|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=83,toView=84,nodeIdx=1,changeCycle=2,myNode=097c5791...,timecost=2.997
+info|2020-11-25 04:59:10.274607|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=83,cur_changeCycle=2,to_view=84
+info|2020-11-25 04:59:11.278933|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=baa07f41...,time=0
+info|2020-11-25 04:59:11.279278|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=84,toView=85,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.286
+info|2020-11-25 04:59:11.285619|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=84,cur_changeCycle=1,to_view=85
+info|2020-11-25 04:59:12.296410|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=d6f55c5a...,time=0
+info|2020-11-25 04:59:12.296792|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=85,toView=86,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.331
+info|2020-11-25 04:59:12.298226|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=85,cur_changeCycle=1,to_view=86
+info|2020-11-25 04:59:13.298564|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=5ed78c6b...
+info|2020-11-25 04:59:13.309531|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=86,toView=87,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.3
+info|2020-11-25 04:59:13.311279|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=86,cur_changeCycle=1,to_view=87
+info|2020-11-25 04:59:14.312031|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=c36c67c1...,time=0
+info|2020-11-25 04:59:14.312353|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=87,toView=88,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.274
+info|2020-11-25 04:59:14.321668|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=87,cur_changeCycle=1,to_view=88
+info|2020-11-25 04:59:15.324794|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=47e8bd03...,time=0
+info|2020-11-25 04:59:15.325164|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=88,toView=89,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.324
+info|2020-11-25 04:59:15.369862|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=88,cur_changeCycle=1,to_view=89
+info|2020-11-25 04:59:16.336519|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=062c9401...,time=0
+info|2020-11-25 04:59:16.336815|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=89,toView=90,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:59:16.342339|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=89,cur_changeCycle=1,to_view=90
+info|2020-11-25 04:59:17.349198|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=be4aa4ec...,time=0
+info|2020-11-25 04:59:17.349735|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=90,toView=91,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.488
+info|2020-11-25 04:59:17.362203|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=90,cur_changeCycle=1,to_view=91
+info|2020-11-25 04:59:18.363144|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=deb78e44...
+info|2020-11-25 04:59:18.375517|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=91,toView=92,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.279
+info|2020-11-25 04:59:18.377849|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=91,cur_changeCycle=1,to_view=92
+info|2020-11-25 04:59:18.409937|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:59:19.376379|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=a702ff3b...,time=0
+info|2020-11-25 04:59:19.376788|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=92,toView=93,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.366
+info|2020-11-25 04:59:19.387899|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=92,cur_changeCycle=1,to_view=93
+info|2020-11-25 04:59:20.397992|[g:1][CONSENSUS][PBFT]Trigger fast-viewchange,view=93,toView=93,minView=94,INFO=,reqNum=160,curNum=160,GenIdx=2,Cview=94,view=93,fromIdx=2,fromNode=2fba64b0...,fromIp=127.0.0.1:30300,hash=c713ae67...,nodeIdx=1,myNode=097c5791...
+info|2020-11-25 04:59:20.400834|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=93,toView=94,nodeIdx=1,changeCycle=2,myNode=097c5791...,timecost=2.829
+info|2020-11-25 04:59:20.402314|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=93,cur_changeCycle=2,to_view=94
+info|2020-11-25 04:59:21.409882|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=320d7587...,time=0
+info|2020-11-25 04:59:21.410190|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=94,toView=95,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.271
+info|2020-11-25 04:59:21.414360|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=94,cur_changeCycle=1,to_view=95
+info|2020-11-25 04:59:22.419265|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=d521b946...,time=0
+info|2020-11-25 04:59:22.419652|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=95,toView=96,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.346
+info|2020-11-25 04:59:22.428878|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=95,cur_changeCycle=1,to_view=96
+info|2020-11-25 04:59:23.430116|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=969aad47...
+info|2020-11-25 04:59:23.442238|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=96,toView=97,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.272
+info|2020-11-25 04:59:23.444017|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=96,cur_changeCycle=1,to_view=97
+info|2020-11-25 04:59:24.446975|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=7fe07780...,time=0
+info|2020-11-25 04:59:24.447322|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=97,toView=98,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.304
+info|2020-11-25 04:59:24.454780|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=97,cur_changeCycle=1,to_view=98
+info|2020-11-25 04:59:25.460966|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=3cc92c98...,time=0
+info|2020-11-25 04:59:25.461349|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=98,toView=99,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.349
+info|2020-11-25 04:59:25.468695|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=98,cur_changeCycle=1,to_view=99
+info|2020-11-25 04:59:26.472336|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=9bc78887...,time=0
+info|2020-11-25 04:59:26.472687|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=99,toView=100,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.239
+info|2020-11-25 04:59:26.478372|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=99,cur_changeCycle=1,to_view=100
+info|2020-11-25 04:59:27.483726|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=9e803cda...,time=0
+info|2020-11-25 04:59:27.484065|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=100,toView=101,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.298
+info|2020-11-25 04:59:27.493200|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=100,cur_changeCycle=1,to_view=101
+info|2020-11-25 04:59:28.410016|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:59:28.493864|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=05da2e74...
+info|2020-11-25 04:59:28.506522|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=101,toView=102,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.289
+info|2020-11-25 04:59:28.508536|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=101,cur_changeCycle=1,to_view=102
+info|2020-11-25 04:59:29.504472|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=0cc14700...,time=0
+info|2020-11-25 04:59:29.504805|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=102,toView=103,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.288
+info|2020-11-25 04:59:29.513674|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=102,cur_changeCycle=1,to_view=103
+info|2020-11-25 04:59:30.518955|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=fe7b7286...,time=0
+info|2020-11-25 04:59:30.519235|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=103,toView=104,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.243
+info|2020-11-25 04:59:30.524725|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=103,cur_changeCycle=1,to_view=104
+info|2020-11-25 04:59:31.529221|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=80de2435...,time=0
+info|2020-11-25 04:59:31.529531|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=104,toView=105,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.272
+info|2020-11-25 04:59:31.538377|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=104,cur_changeCycle=1,to_view=105
+info|2020-11-25 04:59:32.541147|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=5a60c58c...,time=0
+info|2020-11-25 04:59:32.541450|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=105,toView=106,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.263
+info|2020-11-25 04:59:32.550242|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=105,cur_changeCycle=1,to_view=106
+info|2020-11-25 04:59:33.551911|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=7aa1e078...
+info|2020-11-25 04:59:33.569836|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=106,toView=107,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.418
+info|2020-11-25 04:59:33.572416|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=106,cur_changeCycle=1,to_view=107
+info|2020-11-25 04:59:34.565211|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=e53d139a...,time=0
+info|2020-11-25 04:59:34.565496|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=107,toView=108,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.245
+info|2020-11-25 04:59:34.573899|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=107,cur_changeCycle=1,to_view=108
+info|2020-11-25 04:59:35.578674|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=10265a59...,time=0
+info|2020-11-25 04:59:35.578946|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=108,toView=109,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.238
+info|2020-11-25 04:59:35.585405|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=108,cur_changeCycle=1,to_view=109
+info|2020-11-25 04:59:36.593375|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=6cce4957...,time=0
+info|2020-11-25 04:59:36.593759|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=109,toView=110,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.338
+info|2020-11-25 04:59:36.615255|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=109,cur_changeCycle=1,to_view=110
+info|2020-11-25 04:59:37.615445|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=7b6e11fb...,time=0
+info|2020-11-25 04:59:37.615745|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=110,toView=111,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.261
+info|2020-11-25 04:59:37.626218|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=110,cur_changeCycle=1,to_view=111
+info|2020-11-25 04:59:38.410089|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:59:38.626428|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=289f2f3d...
+info|2020-11-25 04:59:38.637954|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=111,toView=112,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.301
+info|2020-11-25 04:59:38.639770|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=111,cur_changeCycle=1,to_view=112
+info|2020-11-25 04:59:39.639265|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=8e70c217...,time=0
+info|2020-11-25 04:59:39.639547|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=112,toView=113,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.247
+info|2020-11-25 04:59:39.646940|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=112,cur_changeCycle=1,to_view=113
+info|2020-11-25 04:59:40.651008|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=888fad3b...,time=0
+info|2020-11-25 04:59:40.651313|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=113,toView=114,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.269
+info|2020-11-25 04:59:40.659007|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=113,cur_changeCycle=1,to_view=114
+info|2020-11-25 04:59:41.665948|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=ced3c25c...,time=0
+info|2020-11-25 04:59:41.666259|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=114,toView=115,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.272
+info|2020-11-25 04:59:41.667453|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=114,cur_changeCycle=1,to_view=115
+info|2020-11-25 04:59:42.673440|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=809d25df...,time=0
+info|2020-11-25 04:59:42.673764|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=115,toView=116,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.283
+info|2020-11-25 04:59:42.682037|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=115,cur_changeCycle=1,to_view=116
+info|2020-11-25 04:59:43.682747|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=ad2374b1...
+info|2020-11-25 04:59:43.695114|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=116,toView=117,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.254
+info|2020-11-25 04:59:43.697077|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=116,cur_changeCycle=1,to_view=117
+info|2020-11-25 04:59:44.696242|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=7ce30abf...,time=0
+info|2020-11-25 04:59:44.696572|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=117,toView=118,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.276
+info|2020-11-25 04:59:44.705248|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=117,cur_changeCycle=1,to_view=118
+info|2020-11-25 04:59:45.709117|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=a1883907...,time=0
+info|2020-11-25 04:59:45.709379|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=118,toView=119,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.231
+info|2020-11-25 04:59:45.716019|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=118,cur_changeCycle=1,to_view=119
+info|2020-11-25 04:59:46.719490|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=0c3df983...,time=0
+info|2020-11-25 04:59:46.719879|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=119,toView=120,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.279
+info|2020-11-25 04:59:46.726967|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=119,cur_changeCycle=1,to_view=120
+info|2020-11-25 04:59:47.731563|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=d1ba34c0...,time=0
+info|2020-11-25 04:59:47.731907|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=120,toView=121,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.3
+info|2020-11-25 04:59:47.740334|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=120,cur_changeCycle=1,to_view=121
+info|2020-11-25 04:59:48.410170|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:59:48.741128|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=ce7cd944...
+info|2020-11-25 04:59:48.752968|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=121,toView=122,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.303
+info|2020-11-25 04:59:48.754920|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=121,cur_changeCycle=1,to_view=122
+info|2020-11-25 04:59:49.752648|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=66ff666e...,time=0
+info|2020-11-25 04:59:49.752922|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=122,toView=123,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.239
+info|2020-11-25 04:59:49.761296|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=122,cur_changeCycle=1,to_view=123
+info|2020-11-25 04:59:50.765841|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=8598047d...,time=0
+info|2020-11-25 04:59:50.768983|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=123,toView=124,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=3.106
+info|2020-11-25 04:59:50.774972|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=123,cur_changeCycle=1,to_view=124
+info|2020-11-25 04:59:51.776933|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=f024ae74...,time=0
+info|2020-11-25 04:59:51.777183|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=124,toView=125,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.219
+info|2020-11-25 04:59:51.784413|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=124,cur_changeCycle=1,to_view=125
+info|2020-11-25 04:59:52.791646|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=6040b5c5...,time=0
+info|2020-11-25 04:59:52.792214|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=125,toView=126,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.364
+info|2020-11-25 04:59:52.797611|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=125,cur_changeCycle=1,to_view=126
+info|2020-11-25 04:59:53.797519|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=f8d10d2f...
+info|2020-11-25 04:59:53.810232|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=126,toView=127,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.288
+info|2020-11-25 04:59:53.812124|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=126,cur_changeCycle=1,to_view=127
+info|2020-11-25 04:59:54.814113|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=41e974c9...,time=0
+info|2020-11-25 04:59:54.814396|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=127,toView=128,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.246
+info|2020-11-25 04:59:54.818098|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=127,cur_changeCycle=1,to_view=128
+info|2020-11-25 04:59:55.830761|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=3,hash=0204b319...,time=0
+info|2020-11-25 04:59:55.831093|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=128,toView=129,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.267
+info|2020-11-25 04:59:55.836550|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=128,cur_changeCycle=1,to_view=129
+info|2020-11-25 04:59:56.837723|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=4,hash=3e8ce5ae...,time=0
+info|2020-11-25 04:59:56.838069|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=129,toView=130,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.279
+info|2020-11-25 04:59:56.847714|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=129,cur_changeCycle=1,to_view=130
+info|2020-11-25 04:59:57.851853|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=0,hash=d6f31268...,time=0
+info|2020-11-25 04:59:57.852159|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=130,toView=131,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.265
+info|2020-11-25 04:59:57.860939|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=130,cur_changeCycle=1,to_view=131
+info|2020-11-25 04:59:58.410258|[P2P][Service] heartBeat,connected count=4
+info|2020-11-25 04:59:58.861618|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=161,tx=0,nodeIdx=1,hash=0a84dbb5...
+info|2020-11-25 04:59:58.875086|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=131,toView=132,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.289
+info|2020-11-25 04:59:58.877150|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=131,cur_changeCycle=1,to_view=132
+info|2020-11-25 04:59:59.875757|[g:1][CONSENSUS]addRawPrepare,height=161,reqIdx=2,hash=e64ce5da...,time=0
+info|2020-11-25 04:59:59.876141|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=132,toView=133,nodeIdx=1,changeCycle=1,myNode=097c5791...,timecost=0.347
+info|2020-11-25 04:59:59.885199|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=132,cur_changeCycle=1,to_view=133

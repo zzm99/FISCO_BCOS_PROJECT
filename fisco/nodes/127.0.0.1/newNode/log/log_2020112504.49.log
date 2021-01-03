@@ -1,0 +1,52 @@
+info|2020-11-25 04:49:40.574277|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.6.0,versionNumber=33947648,enableStat=false,chainId=1,useSMCrypto=false
+info|2020-11-25 04:49:40.574711|[INITIALIZER][SecureInitializer]loading privateKey
+info|2020-11-25 04:49:40.671712|[INITIALIZER][SecureInitializer]get pub of node,nodeID=0735115172ea989b4d27aea8089f890589a4d7480c1827de22afede3db2d6e3ee58bc6a8ceab8111026cc59670ecd417d867271b336784b964394b93a4ad7248
+info|2020-11-25 04:49:40.671833|[INITIALIZER][SecureInitializer]use user certificate,file=conf//node.crt
+info|2020-11-25 04:49:40.675146|[INITIALIZER][SecureInitializer]use ca certificate,file=conf//ca.crt
+info|2020-11-25 04:49:40.682008|[INITIALIZER][SecureInitializer]use ca,file=conf//
+info|2020-11-25 04:49:40.688510|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2020-11-25 04:49:40.690244|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2020-11-25 04:49:40.692965|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2020-11-25 04:49:40.693027|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2020-11-25 04:49:40.693056|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2020-11-25 04:49:40.693081|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30304
+info|2020-11-25 04:49:40.693103|[P2P][Service] heartBeat,connected count=0
+info|2020-11-25 04:49:40.693154|[INITIALIZER][RPCInitializer],network_security.check_cert_issuer=true
+info|2020-11-25 04:49:40.706971|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2020-11-25 04:49:40.715545|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2020-11-25 04:49:40.715590|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2020-11-25 04:49:40.715626|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2020-11-25 04:49:40.715659|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30304
+info|2020-11-25 04:49:40.724928|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:45254
+info|2020-11-25 04:49:40.724971|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2020-11-25 04:49:40.831366|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:45254
+info|2020-11-25 04:49:40.867782|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:45254,local endpoint=127.0.0.1:30304,nodeID=07351151...
+info|2020-11-25 04:49:40.878467|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:45254
+info|2020-11-25 04:49:40.903509|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30304,local endpoint=127.0.0.1:45254,nodeID=07351151...
+info|2020-11-25 04:49:40.903697|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:51600
+info|2020-11-25 04:49:40.903906|[P2P][Service] Connection established,nodeID=5ae2db1c...,endpoint=127.0.0.1:30301
+info|2020-11-25 04:49:40.903934|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:51600,nodeID=5ae2db1c...
+info|2020-11-25 04:49:40.994985|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:46482
+info|2020-11-25 04:49:40.995064|[P2P][Service] Connection established,nodeID=2fba64b0...,endpoint=127.0.0.1:30300
+info|2020-11-25 04:49:40.995091|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30300,local endpoint=127.0.0.1:46482,nodeID=2fba64b0...
+info|2020-11-25 04:49:41.021292|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:38018
+info|2020-11-25 04:49:41.021362|[P2P][Service] Connection established,nodeID=e3236923...,endpoint=127.0.0.1:30303
+info|2020-11-25 04:49:41.021386|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30303,local endpoint=127.0.0.1:38018,nodeID=e3236923...
+info|2020-11-25 04:49:41.077928|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:41556
+info|2020-11-25 04:49:41.077950|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30302,local endpoint=127.0.0.1:41556,nodeID=097c5791...
+info|2020-11-25 04:49:41.078016|[P2P][Service] Connection established,nodeID=097c5791...,endpoint=127.0.0.1:30302
+error|2020-11-25 04:49:41.127179|[INITIALIZER][RPCInitializer],check channel_listen_port=20200,check listenIP=0.0.0.0,EINFO=Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >
+std::exception::what: bind: Address already in use
+
+error|2020-11-25 04:49:41.127445|[INITIALIZER][Initializer]Init failed,EINFO=/FISCO-BCOS/libinitializer/RPCInitializer.cpp(122): Throw in function void dev::initializer::RPCInitializer::initChannelRPCServer(const boost::property_tree::ptree &)
+Dynamic exception type: boost::exception_detail::clone_impl<dev::ListenPortIsUsed>
+std::exception::what: std::exception
+[dev::tag_comment*] = Please check channel_listenIP and channel_listen_port are valid
+
+info|2020-11-25 04:49:41.127533|[INITIALIZER]ledgerInitializer stopped
+info|2020-11-25 04:49:41.128371|[INITIALIZER]ChannelRPCHttpServer deleted.
+info|2020-11-25 04:49:41.128393|[INITIALIZER]RPCInitializer stopped
+error|2020-11-25 04:49:41.128438|[NETWORK][Host]Error: system:125
+info|2020-11-25 04:49:41.128496|[NETWORK][Host]Host exit
+info|2020-11-25 04:49:41.128692|[INITIALIZER]P2PInitializer stopped
